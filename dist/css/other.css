@@ -1,0 +1,77 @@
+footer {
+  background-color: #c9d9dc;
+  padding: 25px 200px;
+  color: #003060; }
+
+#footerall {
+  display: flex; }
+  #footerall ul li {
+    display: inline-block;
+    margin-right: 25px; }
+
+#footerleft {
+  flex-basis: 60%; }
+  #footerleft ul li {
+    padding-right: 50px; }
+    #footerleft ul li a {
+      color: #003060; }
+
+#footerright {
+  flex-basis: 40%;
+  text-align: right;
+  padding-right: 200px; }
+
+.touch li a {
+  text-decoration: none;
+  color: white; }
+  .touch li a:hover {
+    border-bottom: 2px solid white; }
+
+.bg {
+  background-color: #F0F0F0;
+  padding: 25px 150px 20px 150px;
+  color: #3C3C3C; }
+
+.wordsetting {
+  font-size: 18px;
+  font-weight: bold; }
+
+.boxsetting {
+  color: white; }
+  .boxsetting div h3 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .boxsetting div div h4 {
+    text-align: center;
+    font-weight: bold; }
+  .boxsetting div div ol li ul {
+    list-style-type: disc; }
+
+.setting2 div {
+  text-align: center; }
+  .setting2 div div {
+    text-align: center; }
+    .setting2 div div div img {
+      max-height: 820px; }
+  .setting2 div h4 {
+    padding-top: 10px;
+    margin-bottom: 10px; }
+
+.box {
+  display: flex; }
+
+.box1 {
+  flex-basis: 50%;
+  padding: 10px; }
+
+.box2 {
+  flex-basis: 50%;
+  padding: 10px; }
+
+.darkbg {
+  background-color: #343a40; }
+
+.lightbg {
+  background-color: #3e444a; }

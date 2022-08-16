@@ -48,6 +48,15 @@
         text-align: center;
         div{
             text-align: center;
+            div{
+                img{
+                    max-height: 820px;
+                }
+            }
+        }
+        h4{
+            padding-top: 10px;
+            margin-bottom: 10px;
         }
     }
 }
