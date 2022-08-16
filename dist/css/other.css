@@ -52,6 +52,7 @@ footer {
 .setting2 div {
   text-align: center; }
   .setting2 div div {
+    padding: 10px;
     text-align: center; }
     .setting2 div div div img {
       max-height: 820px; }
