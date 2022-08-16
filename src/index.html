@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Introduction</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    @@include('include/nav.html')
+    <div>
+        <section class="ftbg-1">
+            <div class="box">
+                <div class="box1">
+                    @@include('include/carousel.html')
+                </div>
+                <div class="box2">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark" style="margin-bottom: 50px;margin-top: 20px;">A simple dark list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark" style="margin-bottom: 50px;">A simple dark list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark" style="margin-bottom: 50px;">A simple dark list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark" style="margin-bottom: 50px;">A simple dark list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-light text-center mt-1"  data-aos="fade-up"
+            data-aos-duration="3000" >
+                <ion-icon name="chevron-down-sharp"></ion-icon>
+            </div>
+        </section>
+        <section class="ftbg-2">
+            <div class="box">
+                <div class="box1">
+                    <h3>Shawn Liu</h3>
+                    <p class="word">
+                        出身平凡，卻積極向學。<br>
+                        為了目標，為了夢想，為了成為更好的自己，<br>
+                        一次又一次的挫敗，仍澆不熄那向上之心。
+                    </p>
+                    <a href="myself.html"><button type="button" class="btn btn-secondary" style="border-radius: 30px;padding:5px 30px">Learn More</button></a>
+                </div>
+                <div class="box2">
+                    <img id="photo" src="img/me.jpg" alt="my photo">
+                </div>
+            </div>
+        </section>
+        <section class="ftbg-3">
+            <h3 style="text-align: center;">街舞課程影片</h3>
+            <div class="box">
+                <div class="box-1"><video src="videos/hiphop.mp4" width="100%" controls></video></div>
+                <div class="box-2"><video src="videos/house.mp4" width="100%" controls></video></div>
+                <div class="box-3"><video src="videos/locking.mp4" width="100%" controls></video></div>
+            </div>
+        </section>
+    </div>
+    @@include('include/footer.html')
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+footer{
+    background-color: #c9d9dc;
+    padding:25px 200px;
+    color: 	#003060;
+}
+#footerall{
+    display: flex;
+    ul{
+        li{
+            display: inline-block;
+            margin-right: 25px;
+        }
+    }
+}
+#footerleft{
+    flex-basis: 60%;
+    ul{
+        li{
+            padding-right: 50px;
+            a{
+                color: #003060;
+            }
+        }
+    }
+}
+#footerright{
+    flex-basis: 40%;
+    text-align: right;
+    padding-right: 200px;
+}

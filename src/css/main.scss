@@ -1,0 +1,41 @@
+@import "_footer.scss";
+.ftbg-1{
+    padding: 50px;
+    background-color: 	#F0F0F0;
+}
+.ftbg-2{
+    background-color: #F0F0F0;
+    padding: 50px;
+}
+.ftbg-3{
+    background-color: #F0F0F0;
+}
+.box{
+    display: flex;
+}
+.box1{
+    flex-basis: 50%;
+}
+.box2{
+    flex-basis: 50%;
+}
+.box-1{
+    flex-basis: 33.3%;
+    padding: 10px;
+}
+.box-2{
+    flex-basis: 33.3%;
+    padding: 10px;
+}
+.box-3{
+    flex-basis: 33.3%;
+    padding: 10px;
+}
+.word{
+    font-size: 18px;
+}
+#photo{
+    height: auto;
+    width: 500px;
+    padding-left: 50px;
+}
