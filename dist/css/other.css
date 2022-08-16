@@ -55,10 +55,15 @@ footer {
     padding: 10px;
     text-align: center; }
     .setting2 div div div img {
-      max-height: 820px; }
+      max-height: 820px;
+      max-width: 579.6px; }
   .setting2 div h4 {
     padding-top: 10px;
     margin-bottom: 10px; }
+
+#boxdesign {
+  border-bottom: 2px dashed #3C3C3C;
+  margin-bottom: 20px; }
 
 .box {
   display: flex; }
@@ -70,6 +75,11 @@ footer {
 .box2 {
   flex-basis: 50%;
   padding: 10px; }
+
+.vertical {
+  display: flex; }
+  .vertical div {
+    margin: auto; }
 
 .darkbg {
   background-color: #343a40; }

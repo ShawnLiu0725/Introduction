@@ -52,6 +52,7 @@
             div{
                 img{
                     max-height: 820px;
+                    max-width: 579.6px;
                 }
             }
         }
@@ -60,6 +61,10 @@
             margin-bottom: 10px;
         }
     }
+}
+#boxdesign{
+    border-bottom: 2px dashed #3C3C3C;
+    margin-bottom: 20px; ;
 }
 .box{
     display: flex;
@@ -71,6 +76,12 @@
 .box2{
     flex-basis: 50%;
     padding: 10px;
+}
+.vertical{
+    display: flex;
+    div{
+        margin: auto;
+    }
 }
 .darkbg{
     background-color: #343a40;
