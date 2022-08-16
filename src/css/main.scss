@@ -1,14 +1,12 @@
 @import "_footer.scss";
-.ftbg-1{
+.ftbg{
     padding: 50px;
     background-color: 	#F0F0F0;
 }
-.ftbg-2{
-    background-color: #F0F0F0;
+#ftbg{
     padding: 50px;
-}
-.ftbg-3{
-    background-color: #F0F0F0;
+    background-color: 	#F0F0F0;
+    height: 90vh;
 }
 .box{
     display: flex;

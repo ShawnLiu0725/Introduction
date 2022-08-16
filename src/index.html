@@ -14,18 +14,20 @@
   <body>
     @@include('include/nav.html')
     <div>
-        <section class="ftbg-1">
+        <section class="ftbg">
             <div class="box">
                 <div class="box1">
                     @@include('include/carousel.html')
                 </div>
                 <div class="box2">
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-secondary" style="margin-top: 20px;margin-bottom: 50px;text-align: center;font-weight: bold;">快速連結目錄</li>
+                    </ul>
                     <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark" style="margin-bottom: 50px;margin-top: 20px;">A simple dark list group item</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark" style="margin-bottom: 50px;">A simple dark list group item</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark" style="margin-bottom: 50px;">A simple dark list group item</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark" style="margin-bottom: 50px;">A simple dark list group item</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+                        <a href="myself.html" class="list-group-item list-group-item-action list-group-item-secondary" style="margin-bottom: 50px;text-align: center;">自傳</a>
+                        <a href="provement.html" class="list-group-item list-group-item-action list-group-item-secondary" style="margin-bottom: 50px;text-align: center;">經歷證明文件</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary" style="margin-bottom: 50px;text-align: center;">街舞影片</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary" style="text-align: center;">舞展影片連結</a>
                     </div>
                 </div>
             </div>
@@ -34,7 +36,7 @@
                 <ion-icon name="chevron-down-sharp"></ion-icon>
             </div>
         </section>
-        <section class="ftbg-2">
+        <section class="ftbg">
             <div class="box">
                 <div class="box1">
                     <h3>Shawn Liu</h3>
@@ -50,13 +52,18 @@
                 </div>
             </div>
         </section>
-        <section class="ftbg-3">
+        <section class="ftbg">
             <h3 style="text-align: center;">街舞課程影片</h3>
             <div class="box">
                 <div class="box-1"><video src="videos/hiphop.mp4" width="100%" controls></video></div>
                 <div class="box-2"><video src="videos/house.mp4" width="100%" controls></video></div>
                 <div class="box-3"><video src="videos/locking.mp4" width="100%" controls></video></div>
             </div>
+        </section>
+        <section id="ftbg">
+            <img src="img/logo.png" width="300px" alt="">
+            <h1>結語</h1>
+            <p>#</p>
         </section>
     </div>
     @@include('include/footer.html')

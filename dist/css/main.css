@@ -21,16 +21,14 @@ footer {
   text-align: right;
   padding-right: 200px; }
 
-.ftbg-1 {
+.ftbg {
   padding: 50px;
   background-color: #F0F0F0; }
 
-.ftbg-2 {
+#ftbg {
+  padding: 50px;
   background-color: #F0F0F0;
-  padding: 50px; }
-
-.ftbg-3 {
-  background-color: #F0F0F0; }
+  height: 90vh; }
 
 .box {
   display: flex; }
