@@ -89,3 +89,17 @@
 .lightbg{
     background-color: #3e444a;
 }
+.videobox{
+    display: flex;
+}
+.videobox-1{
+    flex-basis: 33.3%;
+    height: 315px;
+}
+.videobox-2{
+    flex-basis: 33.3%;
+}
+.videobox-3{
+    flex-basis: 33.3%;
+    height: 315px;
+}
