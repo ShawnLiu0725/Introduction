@@ -21,17 +21,39 @@ footer {
   text-align: right;
   padding-right: 200px; }
 
-.ftbg {
-  padding: 50px;
-  background-color: #F0F0F0; }
-
 #ftbg {
   padding: 50px;
+  background-color: white;
+  height: 85vh; }
+
+#ftbg-1 {
+  padding: 100px;
   background-color: #F0F0F0;
-  height: 90vh; }
+  height: 110vh; }
+
+#ftbg-2 {
+  padding: 50px;
+  background-color: white;
+  height: 100vh; }
+
+#ftbg-3 {
+  padding: 50px;
+  background-color: #F0F0F0;
+  height: 90vh;
+  text-align: center; }
+  #ftbg-3 img {
+    margin-bottom: 95px; }
+  #ftbg-3 p {
+    font-size: 18px;
+    font-weight: bold; }
+
+#set-1 {
+  margin: 150px 50px 50px 50px; }
 
 .box {
   display: flex; }
+  .box div iframe {
+    min-height: 250px; }
 
 .box1 {
   flex-basis: 50%; }
@@ -58,3 +80,16 @@ footer {
   height: auto;
   width: 500px;
   padding-left: 50px; }
+
+#boxes {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+#box--1 {
+  flex-basis: 80%;
+  margin-top: 100px;
+  margin-bottom: 150px; }
+
+#box--2 {
+  flex-basis: 20%; }
