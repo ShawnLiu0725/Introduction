@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #645450;">
     <a href="index.html"><img src="img/logo.png" style="width:150px;height:100px;margin-right: 50px;margin-left: 35px;" alt="logo"></a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html" style="padding-right: 50px;">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html" style="padding-right: 50px;color: #F0F0F0;">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.instagram.com/_shawn__liu/" style="padding-right: 50px;">Instagram</a>
@@ -40,16 +40,16 @@
     </div>
   </nav>
     <div>
-        <section id="ftbg">
-            <div class="box">
-                <div class="box1">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width:650px;height: 450px">
+        <section class="hung" id="ftbg">
+            <div class="spbox">
+                <div class="spbox1">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width:700px;border: 5px solid #79b1d6;border-right:none ;border-radius: 30px 0 0 30px;">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
+    <div class="carousel-inner" style="border-radius:25px 0 0 25px;">
       <div class="carousel-item active">
         <img src="img/taipei.jpg" class="d-block w-100" alt="...">
       </div>
@@ -69,27 +69,36 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
+                    <div class="hung-dog">
+                        <img src="img/dog.png" width="515px" alt="">
+                    </div>
                 </div>
-                <div class="box2">
-                    <ul class="list-group">
-                        <li class="list-group-item list-group-item-secondary" style="margin-top: 20px;margin-bottom: 50px;text-align: center;font-weight: bold;">快速連結目錄</li>
-                    </ul>
-                    <div class="list-group">
-                        <a href="myself.html" class="list-group-item list-group-item-action list-group-item-secondary" style="margin-bottom: 50px;text-align: center;">自傳</a>
-                        <a href="provement.html" class="list-group-item list-group-item-action list-group-item-secondary" style="margin-bottom: 50px;text-align: center;">經歷證明文件</a>
-                        <a href="streetvideos.html" class="list-group-item list-group-item-action list-group-item-secondary" style="margin-bottom: 50px;text-align: center;">街舞影片</a>
-                        <a href="connect.html" class="list-group-item list-group-item-action list-group-item-secondary" style="text-align: center;">舞展影片及作品連結</a>
+                <div class="spbox2">
+                    <div class="list" id="listbox1">
+                        <span>目錄</span>
+                    </div>
+                    <div class="list" id="listbox2">
+                        <a href="myself.html"><button class="buttonset">自傳</button></a>
+                    </div>
+                    <div class="list" id="listbox3">
+                        <a href="provement.html"><button class="buttonset">經歷證明文件</button></a>
+                    </div>
+                    <div class="list" id="listbox4">
+                        <a href="streetvideos.html"><button class="buttonset">街舞影片</button></a>
+                    </div>
+                    <div class="list" id="listbox5" style="margin-bottom: 0;">
+                        <a href="connect.html"><button class="buttonset">舞展影片及作品連結</button></a>
                     </div>
                 </div>
             </div>
             <div class="col text-light text-center mt-1"  data-aos="fade-up"
             data-aos-duration="3000" >
-                <i class="fa-solid fa-chevron-down" style="color: #272727;margin-top:25px"></i>            
+                <i class="fa-solid fa-chevron-down" style="color: #79b1d6;margin-top:25px"></i>            
             </div>
         </section>
-        <div class="sctop" data-aos="fade-up"
-        data-aos-duration="3000">
-            <section id="ftbg-1">
+        <section id="ftbg-1">
+            <div class="sctop" data-aos="fade-up"
+                data-aos-duration="3000">
                 <div class="box">
                     <div class="box1" id="set-1">
                         <h3>Shawn Liu</h3>
@@ -100,29 +109,25 @@
                             再來一年或許是種煎熬，但也藉此檢視自己的不足，<br>
                             遇到困難，我願意選擇面對，我願意加倍努力......
                         </p>
-                        <a href="myself.html"><button type="button" class="btn btn-secondary" style="border-radius: 30px;padding:5px 30px">Learn More</button></a>
+                        <a href="myself.html"><button class="spbtn">了解更多</button></a>
                     </div>
                     <div class="box2">
                         <img id="photo" src="img/me.jpg" alt="my photo">
                     </div>
                 </div>
-                <div class="col text-light text-center mt-1"  data-aos="fade-up"
-                data-aos-duration="3000" >
-                    <i class="fa-solid fa-chevron-down" style="color: #272727;margin-top:25px"></i>            
-                </div>
-            </section>
-        </div>
-        <div class="sctop" data-aos="fade-up"
-        data-aos-duration="3000">
-            <section id="ftbg-2">
+            </div>
+            <div class="col text-light text-center mt-1"  data-aos="fade-up"
+            data-aos-duration="3000" >
+                <i class="fa-solid fa-chevron-down" style="color: #79b1d6;margin-top:25px"></i>            
+            </div>
+        </section>
+        <section id="ftbg-2">
+            <div class="sctop" data-aos="fade-up"
+            data-aos-duration="3000">
                 <div id="boxes">
                     <div id="box--1">
-                        <div style="text-align: center;margin-bottom: 20px;">
-                            <a href="streetvideos.html">
-                                <button type="button" class="btn btn-outline-secondary" style="border-radius: 30px;">
-                                    <h3 style="margin: 10px;">街舞影片</h3>
-                                </button>
-                            </a>
+                        <div style="text-align: center;margin-bottom: 50px;">
+                            <a href="streetvideos.html"><button class="spbtn">街舞影片</button></a>
                         </div>
                         <div class="box">
                             <div class="box-1"><iframe width="100%"  src="https://www.youtube.com/embed/Jy05kTMrkdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -130,24 +135,30 @@
                             <div class="box-3"><iframe width="100%"  src="https://www.youtube.com/embed/G7DnNVO7B6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                         </div>
                     </div>
-                    <div id="box--2" class="col text-light text-center mt-1"  data-aos="fade-up"
-                    data-aos-duration="3000" >
-                        <i class="fa-solid fa-chevron-down" style="color: #272727;margin-top:25px"></i>            
-                    </div>
                 </div>
-            </section>
-        </div>
-        <div class="sctop" data-aos="fade-up"
-        data-aos-duration="3000">
-            <section id="ftbg-3">
-                <img src="img/logo.png" width="200px" alt="">
-                <p>2013，TED x Taipei，<br>
+            </div>
+            <div id="box--2" class="col text-light text-center mt-1"  data-aos="fade-up"
+            data-aos-duration="3000" >
+                <i class="fa-solid fa-chevron-down" style="color: #79b1d6;margin-top:25px"></i>            
+            </div>
+        </section>
+        <section id="ftbg-3">
+            <div class="sctop" data-aos="fade-up"
+                data-aos-duration="3000">
+                <div id="img">
+                    <img src="img/logo.png" width="400px" alt="">
+                </div>
+                <div id="lastword" style="text-align: left;">
+                    <h4>給每位讀到這裡的你:</h4>
+                    <p>2013，TED x Taipei，
                     臺大醫學系柯文哲教授在演說的最後講了一句這樣的話：<br>
-                    「最困難的不是面對挫折打擊，最困難的是面對挫折打擊，卻沒有失去對人世之熱情。」<br>
-                    ，或許我們曾被命運嘲弄，或許我們曾數度想要放棄，但沒有永不放棄之心，又何以品嘗成功的碩果。<br>
+                    「最困難的不是面對挫折打擊，最困難的是面對挫折打擊，卻沒有失去對人世之熱情。」，<br>
+                    或許我們曾被命運嘲弄，或許我們曾數度想要放棄，但沒有永不放棄之心，又何以品嘗成功的碩果。<br>
                     對萬事抱有好奇，不曾停下腳步，用這樣的信條砥礪自己，造就更好的自己。</p>
-            </section>
-            <footer>
+                </div>
+            </div>
+        </section>
+        <footer>
     <div id="footerall">
        <div id="footerleft">
            <ul>
@@ -161,7 +172,6 @@
        </div>
     </div>
 </footer>
-        </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

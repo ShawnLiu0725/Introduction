@@ -1,41 +1,117 @@
 @import "_footer.scss";
 #ftbg{
-    padding: 50px;
-    background-color: 	white;
-    height: 85vh;
+    padding: 120px 50px 120px 50px;
+    background-color: 	#e3d5b0;
+    height: 100vh;
 }
 #ftbg-1{
     padding: 100px;
-    background-color: 	#F0F0F0;
+    background-color: 	#f2ede7;
     height: 110vh;
 }
 #ftbg-2{
     padding: 50px;
-    background-color: 	white;
+    background-color: 	#e3d5b0;
     height: 100vh;
 }
 #ftbg-3{
-    padding: 50px;
-    background-color: 	#F0F0F0;
+    padding: 100px 50px 50px 50px;
+    background-color: 	#f2ede7;
+    color: #413f44;
     height: 90vh;
-    text-align: center;
-    img{
-        margin-bottom: 95px;
+    h4{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0;
     }
     p{
         font-size: 18px;
         font-weight: bold;
+        margin: 0;
+    }
+    div{
+        text-align: center;
     }
 }
-#set-1{
-    margin: 150px 50px 50px 50px;
-}
-.box{
+.spbox{
     display: flex;
-    div{
-        iframe{
-            min-height: 250px;
-        }
+}
+.spbox1{
+    flex-basis: 70%;
+    margin-left: 210px;
+}
+.hung{
+    position: relative;
+}
+.hung-dog{
+    position: absolute;
+    top: 0;
+    left: 160px;
+
+}
+.spbox2{
+    flex-basis: 30%;
+    margin-right: 210px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #79b1d6;
+    border-radius: 0 30px 30px 0;
+    background-color: #fff9e9;
+}
+.list{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    a{
+        color: #fff9e9;
+    }
+}
+#listbox1{
+    flex-basis: 20%;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    color: #fff9e9;
+    background-color: #79b1d6;
+}
+#listbox2{
+    flex-basis: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#listbox3{
+    flex-basis: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#listbox4{
+    flex-basis: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#listbox5{
+    flex-basis: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.buttonset{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    height: 100%;
+    color: #fff9e9;
+    background-color: #79b1d6;
+    border: 5px solid #79b1d6;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    &:hover{
+        background-color: #fff9e9;
+        color: #79b1d6;
     }
 }
 .box1{
@@ -44,25 +120,60 @@
 .box2{
     flex-basis: 50%;
 }
+.box{
+    display: flex;
+    div{
+        iframe{
+            height: 100%;
+            min-height: 250px;
+        }
+    }
+}
 .box-1{
     flex-basis: 33.3%;
-    padding: 10px;
+    margin: 10px;
+    border: 5px solid #79b1d6;
 }
 .box-2{
     flex-basis: 33.3%;
-    padding: 10px;
+    margin: 10px;
+    border: 5px solid #79b1d6;
 }
 .box-3{
     flex-basis: 33.3%;
-    padding: 10px;
+    margin: 10px;
+    border: 5px solid #79b1d6;
+}
+#set-1{
+    margin: 150px 50px 50px 50px;
+    h3{
+        color: #413f44;
+    }
 }
 .word{
     font-size: 18px;
+    color: #413f44;
+}
+.spbtn{
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff9e9;
+    background-color: #79b1d6;
+    border: 5px solid #79b1d6;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    &:hover{
+        background-color: #fff9e9;
+        color: #79b1d6;
+    }
 }
 #photo{
     height: auto;
     width: 500px;
-    padding-left: 50px;
+    border: 5px solid #a8a07a;
+    border-radius: 30px;
 }
 #boxes{
     display: flex;
@@ -76,4 +187,14 @@
 }
 #box--2{
     flex-basis: 20%;
+}
+#img{
+    margin-bottom: 50px;
+}
+#lastword{
+    border: 5px solid #79b1d6;
+    border-radius: 30px;
+    background-color: #fff9e9;
+    margin: 0 200px 0 200px;
+    padding: 10px 0 10px 125px;
 }
