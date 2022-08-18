@@ -21,23 +21,41 @@ footer {
   text-align: right;
   padding-right: 200px; }
 
-.touch li a {
-  text-decoration: none;
-  color: white; }
-  .touch li a:hover {
-    border-bottom: 2px solid white; }
+.touch li {
+  list-style-type: disc; }
+  .touch li a {
+    text-decoration: none;
+    color: #645450; }
+    .touch li a:hover {
+      border-bottom: 2px solid #645450; }
+
+#catalog li a {
+  font-size: 18px; }
 
 .bg {
-  background-color: white;
+  background-color: #f2ede7;
   padding: 25px 150px 20px 150px;
-  color: #3C3C3C; }
+  color: #413f44; }
+  .bg p {
+    font-size: 18px; }
+
+#spbgset {
+  height: 72.3vh;
+  display: flex; }
+
+#centerset {
+  margin: auto; }
+
+.title {
+  font-size: 28px;
+  font-weight: bold; }
 
 .wordsetting {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold; }
 
 .boxsetting {
-  color: white; }
+  color: #645450; }
   .boxsetting div h3 {
     text-align: center;
     font-weight: bold;
@@ -49,10 +67,23 @@ footer {
   .boxsetting div div ol li ul {
     list-style-type: disc; }
 
+.bordertpset {
+  border-top: 5px solid #79b1d6;
+  border-radius: 30px 30px 0 0; }
+
+.borderlfset {
+  border-left: 5px solid #79b1d6; }
+
+.borderrtset {
+  border-right: 5px solid #79b1d6; }
+
+.borderbtset {
+  border-bottom: 5px solid #79b1d6;
+  border-radius: 0 0 30px 30px; }
+
 .setting2 div {
   text-align: center; }
   .setting2 div div {
-    padding: 10px;
     text-align: center; }
     .setting2 div div div img {
       max-height: 820px;
@@ -62,7 +93,7 @@ footer {
     margin-bottom: 10px; }
 
 #boxdesign {
-  border-bottom: 2px dashed #3C3C3C;
+  border-bottom: 2px dashed #413f44;
   margin-bottom: 20px; }
 
 .box {
@@ -82,13 +113,15 @@ footer {
     margin: auto; }
 
 .darkbg {
-  background-color: #343a40; }
+  background-color: #a8a07a; }
 
 .lightbg {
-  background-color: #3e444a; }
+  background-color: #e3d5b0; }
 
 .videobox {
-  display: flex; }
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .videobox-1 {
   flex-basis: 33.3%;
@@ -100,3 +133,45 @@ footer {
 .videobox-3 {
   flex-basis: 33.3%;
   height: 315px; }
+
+.buttonset {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 20%;
+  color: #fff9e9;
+  background-color: #79b1d6;
+  border: 5px solid #79b1d6;
+  border-radius: 30px;
+  transition-duration: 0.4s;
+  text-align: center; }
+  .buttonset:hover {
+    background-color: #fff9e9;
+    color: #79b1d6; }
+
+.ulbutton {
+  border: none;
+  background-color: #e3d5b0;
+  font-size: 18px; }
+  .ulbutton:hover {
+    border-bottom: 2px solid #645450; }
+
+#videoboxbt {
+  border-radius: 0 0 25px 25px; }
+
+#modalbg {
+  background-color: #fff9e9; }
+
+#modaltitle {
+  color: #413f44; }
+
+.modalbox {
+  padding: 0 50px 0 50px; }
+  .modalbox div h5 {
+    color: #79b1d6;
+    font-weight: bold; }
+
+.lineset {
+  border-top: 5px solid #79b1d6;
+  padding-top: 10px; }

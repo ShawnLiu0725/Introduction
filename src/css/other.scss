@@ -1,26 +1,48 @@
 @import "_footer.scss";
 .touch{
     li{
+        list-style-type: disc;
         a{
             text-decoration: none;
-            color: white;
+            color: #645450;
             &:hover{
-                border-bottom: 2px solid white;
+                border-bottom: 2px solid #645450;
                 }
         }
     }
 }
+#catalog{
+    li{
+        a{
+            font-size: 18px;
+        }
+    }
+}
 .bg{
-    background-color: white;
+    background-color: #f2ede7;
     padding: 25px 150px 20px 150px;
-    color: #3C3C3C;
+    color: #413f44;
+    p{
+        font-size: 18px;
+    }
+}
+#spbgset{
+    height: 72.3vh;
+    display: flex;
+}
+#centerset{
+    margin:  auto ;
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
 }
 .wordsetting{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 .boxsetting{
-    color: white;
+    color: #645450;
     div{
         h3{
             text-align: center;
@@ -43,11 +65,24 @@
         }
     }
 }
+.bordertpset{
+    border-top: 5px solid #79b1d6;
+    border-radius: 30px 30px 0 0;
+}
+.borderlfset{
+    border-left: 5px solid #79b1d6;
+}
+.borderrtset{
+    border-right: 5px solid #79b1d6;
+}
+.borderbtset{
+    border-bottom: 5px solid #79b1d6;
+    border-radius: 0 0 30px 30px;
+}
 .setting2{
     div{
         text-align: center;
         div{
-            padding: 10px;
             text-align: center;
             div{
                 img{
@@ -63,7 +98,7 @@
     }
 }
 #boxdesign{
-    border-bottom: 2px dashed #3C3C3C;
+    border-bottom: 2px dashed #413f44;
     margin-bottom: 20px; ;
 }
 .box{
@@ -84,13 +119,15 @@
     }
 }
 .darkbg{
-    background-color: #343a40;
+    background-color: #a8a07a;
 }
 .lightbg{
-    background-color: #3e444a;
+    background-color: #e3d5b0;
 }
 .videobox{
     display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .videobox-1{
     flex-basis: 33.3%;
@@ -102,4 +139,51 @@
 .videobox-3{
     flex-basis: 33.3%;
     height: 315px;
+}
+.buttonset{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+    color: #fff9e9;
+    background-color: #79b1d6;
+    border: 5px solid #79b1d6;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    text-align: center;
+    &:hover{
+        background-color: #fff9e9;
+        color: #79b1d6;
+    }
+}
+.ulbutton{
+    border: none;
+    background-color: #e3d5b0;
+    font-size: 18px;
+    &:hover{
+        border-bottom: 2px solid #645450;
+    }
+}
+#videoboxbt{
+    border-radius: 0 0 25px 25px;
+}
+#modalbg{
+    background-color: #fff9e9;
+}
+#modaltitle{
+    color: #413f44;
+}
+.modalbox{
+    padding: 0 50px 0 50px;
+    div{
+        h5{
+            color: #79b1d6;
+            font-weight: bold;
+        }
+    }
+}
+.lineset{
+    border-top:5px solid #79b1d6 ;
+    padding-top: 10px;
 }
