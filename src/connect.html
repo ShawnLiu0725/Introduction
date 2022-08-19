@@ -20,24 +20,16 @@
         <div class="box">
           <div class="box1 borderlfset borderbtset lightbg" style="border-radius: 0 0 0 30px;">
               <h4>作品連結</h4>
-              <ul class="touch" id="catalog">
-                  <li>
-                    <button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong">
-                      從文章透析時代——《傾城之戀》
-                    </button>
-                  </li>
-                  @@include('include/portfolio1.html')
-                  <li>
-                    <button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong1">
-                      賽題九-海綿-決賽實驗數據及結論
-                    </button>
-                  </li>
-                  @@include('include/portfolio2.html')
-                  <li><a href="#">賽題九-海綿-個人實作賽報告</a></li>
-                  <li><a href="#">自主學習計畫成果</a></li>
-                  <li><a href="https://github.com/ShawnLiu0725" target="_blank">GitHub Repositories</a></li>
-              </ul>
+              <div class="box" style="flex-direction: column;">
+                <div class="box--1"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong">從文章透析時代——《傾城之戀》</button></div>                  
+                <div class="box--2"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong1">賽題九-海綿-決賽實驗數據及結論</button></div>
+                <div class="box--3"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong1">賽題九-海綿-個人實作賽報告</button></div>
+                <div class="box--4"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong1">自主學習計畫成果</button></div>
+                <div class="box--5"><a href="https://github.com/ShawnLiu0725" target="_blank"><button type="button" class="ulbutton">GitHub Repositories</button></a></div>  
+              </div>
           </div>
+          @@include('include/portfolio1.html')
+          @@include('include/portfolio2.html')
           <div class="box2 borderrtset borderbtset lightbg" style="border-radius: 0 0 30px 0;" >
               <h4>相關連結</h4>
               <ol>
