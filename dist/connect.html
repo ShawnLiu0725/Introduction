@@ -38,21 +38,21 @@
       </ul>
     </div>
   </nav>
-    <section class="bg" id="spbgset">
+    <section class="bg1" id="spbgset">
       <div class="boxsetting" id="centerset">
-        <div class="darkbg bordertpset borderlfset borderrtset">
-            <h3 style="margin-bottom: 0;">舞展影片及作品連結</h3>
+        <div class="spbg2 bordertpset1 borderlfset1 borderrtset1">
+            <h3 style="margin-bottom: 0;color: #fff9e9;">舞展影片及作品連結</h3>
         </div>
         <div class="box">
-          <div class="box1 borderlfset borderbtset lightbg" style="border-radius: 0 0 0 30px;">
-              <h4>作品連結</h4>
-              <div class="box" style="flex-direction: column;">
-                <div class="box--1"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong">從文章透析時代——《傾城之戀》</button></div>                  
-                <div class="box--2"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong1">賽題九-海綿-決賽實驗數據及結論</button></div>
-                <div class="box--3"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong1">賽題九-海綿-個人實作賽報告</button></div>
-                <div class="box--4"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong1">自主學習計畫成果</button></div>
-                <div class="box--5"><a href="https://github.com/ShawnLiu0725" target="_blank"><button type="button" class="ulbutton">GitHub Repositories</button></a></div>  
-              </div>
+          <div class="box1 borderlfset1 borderbtset1 borderrtset1 spbg1" id="boxset---1" style="border-radius: 0 0 0 30px;">
+            <div class="box" style="flex-direction: column;">
+              <h4 style="color: #79b1d6;">作品</h4>
+              <div class="box--1"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong">從文章透析時代——《傾城之戀》</button></div>                  
+              <div class="box--2"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong1">賽題九-海綿-決賽實驗數據及結論</button></div>
+              <div class="box--3"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong2">賽題九-海綿-個人實作賽報告</button></div>
+              <div class="box--4"><button type="button" class="ulbutton" data-toggle="modal" data-target="#exampleModalLong3">自主學習計畫成果</button></div>
+              <div class="box--5"><a href="https://github.com/ShawnLiu0725" target="_blank" style="display:flex;" id="touchset"><button type="button" class="ulbutton">GitHub Repositories</button></a></div>  
+            </div>
           </div>
           <!-- 傾城之戀 -->
 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -180,18 +180,24 @@
                           </ol>
                           <div class="box">
                             <div class="box1">&emsp;&emsp;作用力的大小與分子間距離有關，當分子間距小於r0時，作用力呈現斥力，大於r0時則表現為引力。</div>
-                            <div class="box2" id="pictureset-1"><img src="img/workphotos/experiment1/photo1.png" width="100%" class="pictureset pictureborder" alt=""></div>
+                            <div class="box2" id="pictureset-1">
+                              <img src="img/workphotos/experiment1/photo1.png" width="100%" class="pictureset pictureborder" alt="">
+                              <div style="text-align: center;">圖1-1</div>
+                            </div>
                           </div>
                         </li>
                         <li>
                           <h5 style="color: #413f44; font-weight:500;font-size: 18px;">表面張力</h5>
                           <div class="box">
-                            <div class="box1" style="display: flex;"><img src="img/workphotos/experiment1/photo2.png" width="100%" class="pictureborder" id="pictureset-2" alt=""></div>                   
+                            <div class="box1" style="display: flex;flex-direction: column;position: relative;">
+                              <img src="img/workphotos/experiment1/photo2.png" width="100%" class="pictureborder" id="pictureset-2" alt="">
+                              <div id="wordset1">圖1-2</div>
+                            </div>                   
                             <div class="box2">&emsp;&emsp;因為液體表面的液體蒸發，表面分子稀疏，導致表面的水分子間距大，分子間作用力表現為引力，使液面產生收縮的效果。此作用力會使得表面形成表面膜，並會抵抗表面膜的擴張，也就是這個作用力會使得液體表面積縮成最小，所以由此可知，表面張力的定義為單位長度的拉力。
                             表面張力T=拉力F/單位長度ΔL (牛頓/公尺)，水的表面張力約為0.07275N/m，算是表面張力相當大的液體。</div>   
                           </div>
                         </li>
-                        <li>
+                        <li style="padding-bottom: 15px;">
                           <h5 style="color: #413f44; font-weight:500;font-size: 18px;">浸潤與非浸潤</h5>
                           <div class="box" style="flex-direction: column;">
                             <div class="box1">&emsp;&emsp;當液滴位於一個表面時固、液、氣表面的交點受到液體內部的內聚力與跟接觸面的附著力，當兩個力的大小不同就會造成浸潤與非浸潤情形。
@@ -200,8 +206,9 @@
                                 <li>內聚力小於附著力:合力方向指向接觸面，造成液滴有攤平在表面的趨勢，此時θ小於90度，這種狀況稱為浸潤或潤濕。</li>
                               </ol>
                             </div>
-                            <div class="box2" style="display: flex;">
+                            <div class="box2" style="display: flex;position: relative;">
                               <img src="img/workphotos/experiment1/photo3.jpg" width="100%" class="pictureborder" id="pictureset-3" alt="">
+                              <div id=wordset2>圖1-3</div>
                             </div>
                           </div>
                         </li>
@@ -210,25 +217,28 @@
                           <div class="box" style="flex-direction: column;">
                             <div class="box-1">
                               &emsp;&emsp;當容器進入液內時，接觸的地方會有些微彎曲，此現象就是毛細現象。
-                              固、液、氣的交界處在容器上，受到內聚力(F1)與接觸力(F2)，當F2 > F1/√2 時兩力合力指向液體外，如圖1-1左側。當F2 < F1/√2 時兩力合力指向液體內，如圖1-1右側。
-                              由於液面需垂直於合力方向，所以這樣會造成液面的上凸或下凹(如圖1-2)。如果F2 > F1/√2 ，力平衡後會讓接觸角θ小於90度，因此作用在管壁一周的表面張力會有一個向上的分力，造成管內液體升高。如果F2 < F1/√2 ，會讓接觸角θ大於90度，因此作用在管壁一周的表面張力會有一個向下的分力，造成管內液體降低。
+                              固、液、氣的交界處在容器上，受到內聚力(F1)與接觸力(F2)，當F2 > F1/√2 時兩力合力指向液體外，如圖1-4左側。當F2 < F1/√2 時兩力合力指向液體內，如圖1-4右側。
+                              由於液面需垂直於合力方向，所以這樣會造成液面的上凸或下凹(如圖1-5)。如果F2 > F1/√2 ，力平衡後會讓接觸角θ小於90度，因此作用在管壁一周的表面張力會有一個向上的分力，造成管內液體升高。如果F2 < F1/√2 ，會讓接觸角θ大於90度，因此作用在管壁一周的表面張力會有一個向下的分力，造成管內液體降低。
                             </div>
                             <div class="box-2">
                               <div class="box">
                                 <div class="box1">
                                   <img src="img/workphotos/experiment1/photo4.png" width="100%" class="pictureborder" id="pictureset-4" alt="">
-                                  <div style="text-align: center;font-size: 14px;">圖1-1</div>
+                                  <div style="text-align: center;font-size: 14px;">圖1-4</div>
                                 </div>
                                 <div class="box2">
                                   <img src="img/workphotos/experiment1/photo5.png" width="100%" class="pictureborder" id="pictureset-5"  alt="">
-                                  <div style="text-align: center;font-size: 14px;">圖1-2</div>
+                                  <div style="text-align: center;font-size: 14px;">圖1-5</div>
                                 </div>
                               </div>
                             </div>
                             <div class="box-3">
                               <div>&emsp;&emsp;若想知道毛細管上升或下降的高度，可由力學分析來求得，液柱受到向上的的力為，表面張力在圓周上的鉛直分力(Tcosθ*2πr)、底部壓力向上的總力(P液*πr2)，受到向下的力為，重力(mg)、大氣壓力向下的總力(P氣*πr2)。則可列出方程式為:Tcosθ*2πr + P液*πr2= mg+ P氣*πr2。又P氣= P液，m=hπr2ρ。得解h=2Tcosθ/(ρgr) 若接觸角大於90度則cosθ小於0，h也小於 0，代表液柱下降。</div>
                               <div class="box" style="margin-top: 10px;">
-                                <div id="box---1"><img src="img/workphotos/experiment1/photo6.png" width="100%" class="pictureborder" id="pictureset-6" alt=""></div>
+                                <div id="box---1">
+                                  <div><img src="img/workphotos/experiment1/photo6.png" width="100%" class="pictureborder" id="pictureset-6" alt=""></div>
+                                  <div id="wordset3">圖1-6</div>
+                                </div>
                                 <div id="box---2" style="display: flex;">
                                   <div id="annotation-1" style="margin:auto 0;">&emsp;註解:
                                     <div>
@@ -326,7 +336,10 @@
                         <h5 style="color: #413f44; font-weight:500;font-size: 18px;">實驗設計</h5>
                         <div class="box" id="boxset" style="flex-direction: column;">
                           <div class="box-1">實驗器材:海綿*6(編號1到6)、大臉盆*1、塑膠板*1、電子秤*1、美工刀*1、直尺*1、重物(1kgw、1.5kgw、2kgw) *1、竹籤*8、接水盤*1、雙面膠*1</div>
-                          <div class="box-2"><img src="/img/workphotos/experiment1/picture1.png" width="100%" class="pictureborder" id="pictureset-7" alt=""></div>
+                          <div class="box-2" style="margin-top: 10px;">
+                            <div style="text-align: center;">圖2-1&emsp;海綿</div>
+                            <img src="/img/workphotos/experiment1/picture1.png" width="100%" class="pictureborder" id="pictureset-7" alt="">
+                          </div>
                           <div class="box-3" id="annotation">註解:由左至右依序為編號1至6</div>
                         </div>
                         <div class="step">
@@ -352,7 +365,10 @@
                                 </div>
                                 <div class="box2">
                                   <div class="box" id="boxset" style="flex-direction: column;">
-                                    <div class="box1" style="text-align: center;"><img src="img/workphotos/experiment1/picture2.jpg" width="100%" class="pictureborder" id="pictureset-8" alt=""></div>
+                                    <div class="box1" style="text-align: center;padding-top: 0;">
+                                      <div style="text-align: center;">圖2-2&emsp;簡易晾架</div>
+                                      <img src="img/workphotos/experiment1/picture2.jpg" width="100%" class="pictureborder" id="pictureset-8" alt="">
+                                    </div>
                                     <div class="box2" style="display: flex;">
                                       <div style="margin: auto; font-size: 16px;font-weight: 400;">
                                         註解:在此實驗中我們將吸水量定為海綿所能吸住的水份。
@@ -398,22 +414,27 @@
                           <li>
                             <p style="margin-bottom:8px">實驗(一):乾重的測量</p>
                             <div><img src="img/workphotos/experiment1/table1.jpg" width="100%" class="tableph" alt=""></div>
+                            <div style="text-align: center;">表3-1</div>
                           </li>
                           <li>
                             <p class="littleset">實驗(二):最大溼重的測量</p>
                             <div><img src="img/workphotos/experiment1/table2.jpg" width="100%" class="tableph" alt=""></div>
+                            <div style="text-align: center;">表3-2</div>
                           </li>
                           <li>
                             <p class="littleset" style="margin-bottom: 0px;">實驗(三):測量海綿受不同重量之重物擠壓的形變量</p>
                             <ul>
                               <li style="list-style-type: lower-alpha;"><p class="littleset" style="margin-top: 0;">1.0kgw之重物</p>
                                 <div><img src="img/workphotos/experiment1/table3.jpg" width="100%" height="150px" class="tableph" alt=""></div>
+                                <div style="text-align: center;">表3-3</div>
                               </li>
                               <li style="list-style-type: lower-alpha;"><p class="littleset">1.5kgw之重物</p>
                                 <div><img src="img/workphotos/experiment1/table4.jpg" width="100%" height="150px" class="tableph" alt=""></div>
+                                <div style="text-align: center;">表3-4</div>
                               </li>
                               <li style="list-style-type: lower-alpha;"><p class="littleset">2.0kgw之重物</p>
                                <div><img src="img/workphotos/experiment1/table5.jpg" width="100%" height="150px" class="tableph" alt=""></div>
+                               <div style="text-align: center;">表3-5</div>
                               </li>
                             </ul>
                           </li>
@@ -422,12 +443,15 @@
                             <ul>
                               <li style="list-style-type: lower-alpha;"><p class="littleset" style="margin-top: 0;">1.0kgw之重物</p>
                                 <div><img src="img/workphotos/experiment1/table6.jpg" width="100%" height="150px" class="tableph" alt=""></div>
+                                <div style="text-align: center;">表3-6</div>
                               </li>
                               <li style="list-style-type: lower-alpha;"><p class="littleset">1.5kgw之重物</p>
                                 <div><img src="img/workphotos/experiment1/table7.jpg" width="100%" height="150px" class="tableph" alt=""></div>
+                                <div style="text-align: center;">表3-7</div>
                               </li>
                               <li style="list-style-type: lower-alpha;"><p class="littleset">2.0kgw之重物</p>
                                <div><img src="img/workphotos/experiment1/table8.jpg" width="100%" height="150px" class="tableph" alt=""></div>
+                               <div style="text-align: center;">表3-8</div>
                               </li>
                             </ul>
                           </li>
@@ -438,31 +462,56 @@
                         <ol>
                           <li>將實驗(一)所得平均乾重做成柱狀圖。
                             <div class="box littleset">
-                              <div id="box1" style="display: flex;"><img src="img/workphotos/experiment1/table11.jpg" width="100%" height="155px" class="pictureset-9-l" alt=""></div>
-                              <div id="box2"><img src="img/workphotos/experiment1/chart1.png" width="100%" class="pictureset-9-r" alt=""></div>
+                              <div id="box1" style="display: flex;position: relative;">
+                                <img src="img/workphotos/experiment1/table11.jpg" width="100%" height="155px" class="pictureset-9-l" alt="">
+                                <div id="wordset4">表3-9</div>
+                              </div>
+                              <div id="box2">
+                                <img src="img/workphotos/experiment1/chart1.png" width="100%" class="pictureset-9-r" alt="">
+                                <div style="text-align: center;">圖3-1</div>
+                              </div>
                             </div>
                           </li>
                           <li>將實驗(二)所得的平均最大吸水量(平均最大濕重-平均乾重)做成柱狀圖。
                             <div class="box littleset">
-                              <div id="box1" style="display: flex;"><img src="img/workphotos/experiment1/table12.jpg" width="100%" height="155px" class="pictureset-9-l" alt=""></div>
-                              <div id="box2"><img src="img/workphotos/experiment1/chart2.png" width="100%" class="pictureset-9-r" alt=""></div>
+                              <div id="box1" style="display: flex;position: relative;">
+                                <img src="img/workphotos/experiment1/table12.jpg" width="100%" height="155px" class="pictureset-9-l" alt="">
+                                <div id="wordset5">表3-10</div>
+                              </div>
+                              <div id="box2">
+                                <img src="img/workphotos/experiment1/chart2.png" width="100%" class="pictureset-9-r" alt="">
+                                <div style="text-align: center;">圖3-2</div>
+                              </div>
                             </div>
                           </li>
                           <li>將實驗(三)數據推導得出的受壓後的高度做成柱狀圖。
                             <div class="box" style="flex-direction: column;">
-                              <div class="box1"><img src="img/workphotos/experiment1/table13.png" width="100%" alt=""></div>
-                              <div class="box2"><img src="img/workphotos/experiment1/chart3.png" width="100%" id="pictureset-10" alt=""></div>
+                              <div class="box1">
+                                <div style="text-align: center;">表3-11</div>
+                                <img src="img/workphotos/experiment1/table13.png" width="100%" alt="">
+                              </div>
+                              <div class="box2">
+                                <div style="text-align: center;">圖3-3</div>
+                                <img src="img/workphotos/experiment1/chart3.png" width="100%" id="pictureset-10" alt="">
+                              </div>
                             </div>
                           </li>
                           <li>由實驗(四)推導出的受壓後的吸水量做成柱狀圖。
                             <div class="box" style="flex-direction: column;">
-                              <div class="box1"><img src="img/workphotos/experiment1/table14.png" width="100%" alt=""></div>
-                              <div class="box2"><img src="img/workphotos/experiment1/chart4.png" width="100%" id="pictureset-10" alt=""></div>
+                              <div class="box1">
+                                <div style="text-align: center;">表3-12</div>
+                                <img src="img/workphotos/experiment1/table14.png" width="100%" alt="">
+                              </div>
+                              <div class="box2">
+                                <div style="text-align: center;">圖3-4</div>
+                                <img src="img/workphotos/experiment1/chart4.png" width="100%" id="pictureset-10" alt="">
+                              </div>
                             </div>
                           </li>
                           <li>由理論推出吸水量與形變量跟自身吸水能力的關係
                             <div class="box littleset" style="flex-direction: column;margin-bottom: 0;">
                               <div class="box-1" id="boxset" style="text-align: center;">
+                                <div style="text-align: center;">圖3-5</div>
                                 <img src="../img/workphotos/experiment1/conclusion.png" width="100%" class="pictureborder" id="pictureset-11" alt="">
                                 <p style="margin-bottom: 0;padding-top:10px;">參數： h：水深、h’：鬆開海綿吸水之高度 <br> 𝑙：海綿高度、∆𝑥：形變量</p>
                               </div>
@@ -478,18 +527,18 @@
                                   <div class="box1">
                                     <div id="boxset" style="text-align: center;">
                                       <img src="img/workphotos/experiment1/chart5.png" width="100%" id="pictureset-12" alt="">
-                                      <p style="padding-top: 10px;margin: 0;">a.將吸水量與壓縮後高度作圖</p>
+                                      <p style="padding-top: 10px;margin: 0;">圖3-6 <br> 將吸水量與壓縮後高度作圖</p>
                                       <div id="boxset1" style="font-size: 16px;">吸水量=最大吸水量×ℎ/(𝑙−∆𝑥)</div>
+                                      <div id="annotation-2" style="margin-top: 10px;">註解:橫軸為壓縮後高度(cm)，縱軸為吸水量(ml)</div>
                                     </div>
-                                    <div id="annotation-2">註解:橫軸為壓縮後高度(cm)，縱軸為吸水量(ml)</div>
                                   </div>
                                   <div class="box2">
                                     <div id="boxset" style="text-align: center;">
                                       <img src="img/workphotos/experiment1/chart6.png" width="100%" id="pictureset-13" alt="">
-                                      <p style="padding-top: 10px;margin: 0;">b.將吸水率與壓縮後高度作圖</p>
+                                      <p style="padding-top: 10px;margin: 0;">圖3-7 <br> 將吸水率與壓縮後高度作圖</p>
                                       <div id="boxset1" style="font-size: 13px;">吸水率=吸水量/最大吸水量=ℎ/(𝑙−∆𝑥)</div>
+                                      <div id="annotation-3" style="margin-top: 10px;">註解:橫軸為壓縮後高度(cm)，縱軸為吸水率(百分比)</div>
                                     </div>
-                                    <div id="annotation-3">註解:橫軸為壓縮後高度(cm)，縱軸為吸水率(百分比)</div>
                                   </div>
                                 </div>
                               </div>
@@ -531,17 +580,279 @@
       </div>
     </div>
   </div>
-          <div class="box2 borderrtset borderbtset lightbg" style="border-radius: 0 0 30px 0;" >
-              <h4>相關連結</h4>
+          <!-- 賽題九-海綿-個人實作賽報告 -->
+<div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content" id="modalbg">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLongTitle modaltitle">賽題九-海綿-個人實作賽報告</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modalbox">
+            <div>
+              <h5>賽題研析</h5>
+              <div class="lineset">
+                <p>
+                    &emsp;&emsp;海綿是一種發泡材料，含有許多細小的孔洞，而當充滿細小孔洞的海綿表面接觸到水面時，便會因毛細作用而將水吸至內部。而不同海綿因材質、孔洞大小的不同，而導致了與水的親和力也不盡相同，毛細作用的效果也有所差異，在吸水量、吸水率……等諸多性質上也都有所差異。<br><br>
+                    &emsp;&emsp;毛細作用這一現象使我想到了我們日常生活必需品¬—衛生紙，同樣也是利用毛細現象吸水，而衛生紙一旦當它接觸到水面時，會在極短的時間內吸滿水、整張濕透，這讓我好奇是否海綿也能在接觸水面的當下，有明顯且顯著的吸水量。<br><br>
+                    &emsp;&emsp;考慮到能獲取的海綿厚度是衛生紙的數倍，因此我將接觸水面的時間拉長，觀測接觸前後對於水量的影響，這樣就能得知海綿吸水的效率了。                
+                </p>
+              </div>
+            </div>
+            <div>
+              <h5>科學原理</h5>
+              <div class="lineset">
+                 <ul class="ulset-1">
+                    <li><h5>毛細作用</h5>
+                        <p>
+                            &emsp;&emsp;海綿主要吸水的原因為毛細作用，毛細作用是因物體與液體之間的附著力及液體分子間因為凡得瓦力、氫鍵產生內聚力後所導致的表面張力而產生，毛細作用能使液體在不借助外力的情況下，流向細孔、細管、細縫……等地方，毛細作用有時甚至能使液體抵抗地心引力。 
+                        </p>
+                    </li>
+                    <li><h5>生活中的例子</h5>
+                        <p>
+                            &emsp;&emsp;生活中常見的例子如:酒精燈、衛生紙、蠟燭……等。酒精燈借助棉繩的毛細作用，將瓶內的酒精吸至點火處，點火時會優先燃燒酒精，使棉繩長度並不會減少，又能持續地燃燒；衛生紙是生活不可缺少的必備品，當我們打翻液體時，將衛生紙輕貼液面，液體便會因毛細作用被迅速地吸至衛生紙上頭；蠟燭燃燒的原理類似酒精燈，當棉線頭被點燃時，高溫便會使較近的蠟燭融化，而蠟油則伴隨棉線的毛細作用上升至燃燒處，使得蠟燭能長時間燃燒。綜上所述可知，毛細作用在我們日常生活扮演著一個重要的角色。
+                        </p>
+                    </li>
+                 </ul>
+              </div>
+            </div>
+            <div>
+              <h5>實驗設計與規劃</h5>
+              <div class="lineset">
+                <ul class="ulset-1">
+                    <li>材料:1~6號海綿*1、圓盤*1、美工刀*1、直尺*1、電子秤*1、瓦楞塑膠板*2</li>
+                    <li>環境:無風、室溫之房間</li>
+                    <li>實驗步驟:
+                        <ul>
+                            <li>將海綿統一切至8*6*4大小(單位:cm)，並編碼A~F(圖(一))。</li>
+                            <li>瓦楞塑膠板對切後於中心處開7*5(比海綿長、寬各小1公分)大小之孔洞(單位:cm)。</li>
+                            <li>將圓盤放上電子秤後倒入水直至水與盤重相加為200(單位:g)時。</li>
+                            <li>將海綿卡入瓦楞塑膠板的孔洞以增重並擠壓海綿。(圖(二)為示意圖)</li>
+                            <li>將卡上瓦楞塑膠板之海綿分別靜置水中1、3、5分鐘，並計算出前後重量相差之質。</li>
+                            <li>各海綿重複3次實驗。</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="box">
+                    <div class="box1" id="boxset" style="margin-bottom: 10px;">
+                        <img src="img/workphotos/experiment2/photo1.png" width="100%" class="pictureborder" alt="">
+                        <div style="text-align:center;">圖(一)</div>
+                        <div>
+                            <p style="font-size: 16px;font-weight:400;margin-bottom:0;">
+                                註:由左至右依序為:可力美圓形美容海綿、A3N打蠟洗車海綿、洗車海綿*洗不爛、銀島海綿、磚形洗車海綿、高密度洗車海綿。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <img src="img/workphotos/experiment2/photo2.png" width="100%" class="pictureborder" alt="">
+                        <div style="text-align: center;">圖(二)</div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h5>實驗結果與分析</h5>
+              <div class="lineset">
+                <ul class="ulset-1">
+                    <li><h5>實驗結果</h5>
+                        <div class="box" style="flex-direction: column;">
+                            <div class="box-1">
+                                <img src="img/workphotos/experiment2/table1.png" width="100%" alt="">
+                                <div style="text-align: center;">表(一)、經不同分鐘後盤內水的變化量(第一次實驗)</div>
+                            </div>
+                            <div class="box-2">
+                                <img src="img/workphotos/experiment2/table2.png" width="100%" alt="">
+                                <div style="text-align: center;">表(二)、經不同分鐘後盤內水的變化量(第二次實驗)</div>
+                            </div>
+                            <div class="box-3">
+                                <img src="img/workphotos/experiment2/table3.png" width="100%" alt="">
+                                <div style="text-align: center;">表(三)、經不同分鐘後盤內水的變化量(第三次實驗)</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><h5>作圖與分析</h5>
+                        <div class="box" style="flex-direction: column;">
+                            <div id="box1">
+                                <img src="img/workphotos/experiment2/table4.png" width="100%" alt="">
+                                <div style="text-align: center;">表(四)、三次實驗數據之平均</div>
+                            </div>
+                            <div id="box2">
+                                <img src="img/workphotos/experiment2/chart1.png" width="100%" alt="">
+                                <div style="text-align: center;">圖(三)、平均後各組水變化量之直條圖</div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><h5>直接將海綿置於水中，吸水速率並不快</h5>
+                                <p>
+                                    &emsp;&emsp;在圖(三)中能清楚看到大部分組別是會隨時間拉長而提升所吸收的水量，表示毛細作用確實會使液體吸入海綿，但可以看到的是吸收的速度並不快，即使放置了五分鐘再取出變化量最大的D組平均也僅吸了7.4克，但我們平時使用海綿時效率並不會那麼差，我想是因為通常使用海綿時會將海綿放入水桶中，在進行擠壓，擠壓時可以看到桶內有些許氣泡，之後在取出海綿時便是內部充滿水分的樣子，因此我想氣泡可能也是影響吸水效率的原因，海綿內有許多大小不一的氣孔，裡面存有的空氣，可能會影響水進入的效率，因此若再次實驗勢必也得把內部的空氣納入影響因素。
+                                </p>
+                            </li>
+                            <li><h5>孔洞可能影響吸水量之成長率</h5>
+                                <div class="box">
+                                    <div class="box1">
+                                        <p>
+                                        &emsp;&emsp;但就此實驗來看可以看出D組的變化量差異最為明顯，D組的海綿外是6種海綿中有最多明顯孔洞的(圖(四))，觸感也並非最粗糙或最滑順的，因此我推斷表面的粗糙程度並不會影響吸水速率，但孔洞可能會是影響吸水量成長率的因素之一。
+                                        </p>
+                                    </div>
+                                    <div class="box2">
+                                        <div class="box" style="flex-direction: column;">
+                                            <div class="box1" style="padding: 0;text-align:center;"><img src="img/workphotos/experiment2/photo3.png" width="100%" class="pictureborder" id="photo1" alt=""></div>
+                                            <div class="box2" style="text-align: center;">圖(四)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><h5>海綿不施力壓入水中則會浮起，不利吸水</h5>
+                                <p>
+                                    &emsp;&emsp;還有一點是我在這次實驗的發現，在實驗設計時我刻意加了瓦楞塑膠板(圖(二))增加海綿重量，是因為這其實是我的第二個實驗設計，最原始的版本並無加上瓦楞板，但當時做實驗時我發現海綿乾燥未充水時，由於內部都是氣體，導致密度是小於水的，因此致使了海綿會浮於水上，即使海綿還是有吸水，但也只是附著在海綿的表面，整體吸收的量僅零點多克，效果十分差，用衛生紙敷上，便能輕易吸出，我試過增加與水接觸的面積，但無法改善，直到後來想到將海綿加裝瓦楞板，增加重量以抵抗浮力，這才讓效果有顯著的改善。
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <h5>誤差分析與結論</h5>
+                <div class="lineset">
+                    <ul class="ulset-1">
+                        <li><h5>誤差分析</h5>
+                            <p>&emsp;&emsp;這次實驗的誤差非常明顯，在A、B兩組的平均變化量圖中(圖(三))，可以發現兩組的成長趨勢明顯不同於其他組，我認為可能有兩個原因:</p>
+                            <ul>
+                                <li>因為一開始將海綿放入水中並同時按錶計時的技巧還不熟練，導致在操作時不甚去壓到海綿，使內部的些許空氣排出，進而使吸水量增加。</li>
+                                <li>在前期幾次測量中，因為圓盤底部的不平整，導致放在電子秤上時有較為顯著的傾斜，可能導致電子秤受力不均進而使數值有了誤差，但後續有不斷調整盤子版放角度，因此後面的實驗並無此問題。</li>
+                            </ul><br>
+                            <p>&emsp;&emsp;以上兩點原因是我覺得有可能導致實驗結果有誤差的原因，兩點都算是我個人所造成的人為誤差，因此得銘記此次教訓，未來在次實驗時盡量去避免人為所遭成的誤差。</p>
+                        </li>
+                        <li><h5>結論</h5>
+                            <p>&emsp;&emsp;雖然有誤差但此次實驗還是可以讓我們可以整理出一些結論:</p>
+                            <ul>
+                                <li>海綿的材質、孔洞確實會影響海綿的吸水效率。</li>
+                                <li>內部的空氣是會影響海綿的吸水效率的，有無擠壓到海綿甚至會影響整個實驗的數據，造成了明顯的實驗誤差。</li>
+                                <li>做實驗時應當更加謹慎，得考慮得更加周全，才能降低對實驗的影響，使數據能較為接近理論值，但假若誤差已盡量避免了，卻仍有明顯的偏差，也不妨考慮是否為理論出了問題。</li>
+                            </ul><br>
+                        </li>
+                        <li><h5>心得</h5>
+                            <p>&emsp;&emsp;海綿在日常生活中是個不可或缺的材料，在汽車、內衣物製成、建築、清潔……等不同領域都有廣泛的應用，因此沒有最好或難用的海綿，該針對不同的情況，去選擇所需的海綿，才能使效益最大化。<br><br>
+                            這次的海綿的實驗讓我學到很多實驗的技巧，對於第一次參加這種實驗比賽的我真的受益良多，在操作時我曾數次把水打翻，或者是明明測量時間到了，卻不甚忘了紀錄，導致整個實驗重作……等，讓我深刻體會到在沒有老師輔佐時，自己是多容易疏忽些細節，讓我學到未來做實驗時務必得更加小心謹慎。</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="buttonset" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+          <!-- 自主學習計畫成果 -->
+<div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content" id="modalbg">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLongTitle modaltitle">自主學習計畫成果</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modalbox">
+            <div>
+              <h5>動機</h5>
+              <div class="lineset">
+                  <p>
+                    隨著文明科技的進步，人類對於電的需求量也不斷增加，但諸如石油、煤炭、天然氣等資源卻將在數十年後用盡。2011年的福島核災不但使人們開始意識到核汙染的影響及威脅，更喚起大眾對於能源的危機意識。因此，人類開始對太陽能等較為乾淨且永續的能源進行研究。
+                    太陽能發電是目前就地形、氣候等地理因素限制一併考慮後，最能夠普及且受用各地使用的發電方式，因此這引起了我對太陽能發電這項技術的興趣，並想針對發電效率進行部分之測試。影響太陽能所能轉出電量的因素眾多，如:材質、照光面積……等，在跟老師討論後我決定從光頻率的部分進行測試及探討。
+                  </p>
+              </div>
+            </div>
+            <div>
+              <h5>科學原理</h5>
+              <div class="lineset">
+                <ul>
+                    <li><h5></h5>
+
+                    </li>
+                    <li><h5></h5>
+
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <h5>實驗設計</h5>
+              <div class="lineset">
+                <ul>
+                    <li><h5>實驗器材</h5>
+
+                    </li>
+                    <li><h5>變因</h5>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li><h5>實驗流程</h5>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li><h5>裝置示意圖</h5>
+
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <h5>阻礙</h5>
+              <div class="lineset">
+                  <p>
+                    因為整個實驗的設計到裝置規劃都是我個人負責，加上實驗的前置作業繁多(包括裝置的組裝、實驗器材租借、材料購買……等)，因此光準備做實驗就花費了很長一段時間，等到都準備就緒時，卻又碰上疫情，接著跟學校接洽但部分的實驗器材學校也無法外借，最後此實驗只好以失敗告終。
+                  </p>
+              </div>
+            </div>
+            <div>
+              <h5>心得</h5>
+              <div class="lineset">
+                  <p>
+                    雖然此次實驗無法成功完成，但在這之中我仍學到很多，其實一開始我有先是做一次簡易版的實驗，那次實驗並沒有風扣版作為遮光材料，只有將鹵素燈及太陽能板間用玻璃紙隔開進行部分濾光，但在實驗後可以發現並無明顯的變化，之後我在往上翻找資料，若要做出較精確且可使用的實驗數據，就必須再減少會影響數據之因素，所以我在原本的基礎上又設計出了這個實驗。
+                    但雖然實驗已經過改良，我卻又忽略掉一件事，那便是對於時間規畫及進度之掌控，一個人要準備實驗又要準備考試及社團事務，對於我來說是個很大的負擔，坦白說，整體實際執行時的進度是遠慢於原本所設定的。
+                    在這整個過程中我清楚明白事先計畫好的用意及必要性，還有除了規劃好之外實際執行時也會碰到很多難題，因此也必須將解決這些困難所花費的時間也考慮進去。
+                    或許這次非常可惜，都已經準備到最後一步了，卻因為突如其來的疫情，因而最後失敗告終，但在這其中我卻學到了很多課堂內無法學到的「經驗」，換個角度看不也是獲益良多，至於實驗的部分就希望未來還能夠有機會將它完成。
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="buttonset" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+          <div class="box2 borderrtset1 borderbtset1 spbg1" style="border-radius: 0 0 30px 0;" >
+              <h4 style="color: #79b1d6;">相關連結</h4>
               <ol>
-                  <li style="font-size: 18px;">舞展影片(高一)
-                      <ul class="touch" id="catalog">
+                  <li style="font-size: 18px;color: #79b1d6;font-weight: bold;">舞展影片(高一)
+                      <ul class="touch1" id="catalog">
                           <li><a href="https://www.youtube.com/watch?v=eeox8DB4xoA&t=92s" target="_blank">Soul out Vol.12</a></li>
                           <li><a href="https://www.youtube.com/watch?v=MKOeRrOiYJ8" target="_blank">Memoria·憶 Vol.1</a></li>
                       </ul>
                   </li>
-                  <li style="font-size: 18px;">舞展影片(高二)
-                      <ul class="touch" id="catalog">
+                  <li style="font-size: 18px;color: #79b1d6;font-weight: bold;">舞展影片(高二)
+                      <ul class="touch1" id="catalog">
                           <li><a href="https://www.youtube.com/watch?v=0_pn-fZkCpE" target="_blank">Summer Beat Vol.19</a></li>
                           <li><a href="https://www.youtube.com/watch?v=0PMDcrUgqqk" target="_blank">Rhythm of Soul Vol.7</a></li>
                           <li><a href="https://www.youtube.com/watch?v=lxYzKW-yRNk&t=9s" target="_blank">Rock Senior Vol.11</a></li>
