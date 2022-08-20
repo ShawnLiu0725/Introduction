@@ -201,6 +201,13 @@ footer {
     color: #79b1d6;
     font-weight: bold; }
 
+#box---1 {
+  flex-basis: 60%;
+  text-align: center; }
+
+#box---2 {
+  flex-basis: 40%; }
+
 .box-1 {
   flex-basis: 33.3%; }
 
@@ -210,9 +217,23 @@ footer {
 .box-3 {
   flex-basis: 33.3%; }
 
+#boxset {
+  border: 5px solid #645450;
+  background-color: #f2ede7;
+  padding: 10px;
+  border-radius: 20px; }
+
+#boxset1 {
+  border: 5px solid #79b1d6;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-top: 10px;
+  text-align: center; }
+
 .lineset {
   border-top: 5px solid #79b1d6;
-  padding-top: 10px; }
+  padding-top: 10px;
+  font-size: 18px; }
 
 .olset-1 li {
   color: #413f44;
@@ -229,8 +250,22 @@ footer {
 .liset {
   padding-bottom: 10px; }
 
-.annotation {
-  font-size: 16px; }
+#annotation {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400; }
+
+#annotation-1 {
+  font-size: 16px;
+  font-weight: 400; }
+
+#annotation-2 {
+  font-size: 16px;
+  font-weight: 400; }
+
+#annotation-3 {
+  font-size: 16px;
+  font-weight: 400; }
 
 .tablepr {
   text-align: center;
@@ -240,12 +275,12 @@ footer {
     text-align: left; }
 
 .tablebg1 {
-  background-color: #a8a07a;
-  border: 5px solid #79b1d6; }
+  background-color: #e3d5b0;
+  border: 5px solid #645450; }
 
 .tablebg2 {
-  border-top: 5px solid #79b1d6;
-  background-color: #e3d5b0; }
+  border-top: 5px solid #645450;
+  background-color: #f2ede7; }
 
 .step {
   margin-top: 10px; }
@@ -281,8 +316,9 @@ footer {
   background-color: #ffffff; }
 
 #pictureset-6 {
-  max-width: 350px;
-  background-color: #ffffff; }
+  max-width: 325px;
+  background-color: #ffffff;
+  max-height: 350px; }
 
 #pictureset-7 {
   max-height: 150px;
@@ -291,7 +327,8 @@ footer {
   padding: 10px; }
 
 #pictureset-8 {
-  max-width: 350px;
+  max-width: 275px;
+  max-height: 275px;
   padding: 10px;
   background-color: #ffffff; }
 
@@ -320,7 +357,11 @@ footer {
   max-height: 200px; }
 
 #pictureset-12 {
-  max-height: 165px; }
+  max-height: 147px; }
 
 #pictureset-13 {
-  max-height: 165px; }
+  max-height: 147px; }
+
+.littleset {
+  margin-top: 8px;
+  margin-bottom: 8px; }
