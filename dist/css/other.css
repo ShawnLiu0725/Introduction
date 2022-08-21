@@ -477,3 +477,33 @@ footer {
 
 .oneset {
   padding-bottom: 10px; }
+
+#spbgset1 {
+  height: 72.4vh; }
+
+.logobox {
+  margin: auto;
+  display: flex;
+  padding-top: 20px; }
+
+.logoboxlf {
+  flex-basis: 50%;
+  display: flex;
+  margin-right: 100px; }
+
+.logoboxlf-1 {
+  margin: auto 0; }
+  .logoboxlf-1 img {
+    max-width: 500px; }
+
+.logoboxrt {
+  flex-basis: 50%;
+  color: #413f44; }
+  .logoboxrt div {
+    border-bottom: 5px solid #79b1d6;
+    margin-bottom: 8px; }
+    .logoboxrt div h5 {
+      font-weight: bold;
+      color: #79b1d6; }
+  .logoboxrt p {
+    font-size: 18px; }

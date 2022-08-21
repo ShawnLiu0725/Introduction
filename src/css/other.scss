@@ -520,3 +520,37 @@
 .oneset{
     padding-bottom: 10px;
 }
+#spbgset1{
+    height: 72.4vh;
+}
+.logobox{
+    margin: auto ;
+    display: flex;
+    padding-top: 20px;
+}
+.logoboxlf{
+    flex-basis: 50%;
+    display: flex;
+    margin-right: 100px;
+}
+.logoboxlf-1{
+    margin: auto 0;
+    img{
+        max-width: 500px;
+    }
+}
+.logoboxrt{
+    flex-basis: 50%;
+    color: #413f44;
+    div{
+        border-bottom: 5px solid #79b1d6;
+        margin-bottom: 8px;
+        h5{
+            font-weight: bold;
+            color: #79b1d6;
+        }
+    }
+    p{
+        font-size: 18px;
+    }
+}
