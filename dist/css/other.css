@@ -507,3 +507,47 @@ footer {
       color: #79b1d6; }
   .logoboxrt p {
     font-size: 18px; }
+
+#spboxlf {
+  border-radius: 0 0 0 30px; }
+
+#spboxrt {
+  border-radius: 0 0 30px 0; }
+
+#btnbox {
+  margin-top: 20px;
+  text-align: center;
+  display: flex; }
+
+@media (max-width: 960px) {
+  .bg {
+    padding: 20px; }
+  .box {
+    flex-direction: column; }
+    .box ol {
+      padding: 0 20px 0 35px; }
+      .box ol ul {
+        padding: 0 20px 0 20px; }
+    .box ul {
+      padding: 0 50px 0 50px; }
+    .box h4 {
+      margin-top: 8px; }
+  .box1 {
+    padding: 0; }
+  .box2 {
+    padding: 0; }
+  .borderlfset {
+    border-right: 5px solid #645450; }
+  .borderrtset {
+    border-left: 5px solid #645450; }
+  #spboxlf {
+    border-radius: 0;
+    border-bottom: 0; }
+  #spboxrt {
+    border-radius: 0 0 30px 30px; }
+  #btnbox {
+    flex-direction: column; }
+  #spbtnst-1 {
+    margin-bottom: 20px; }
+  #spbtnst-2 {
+    margin-bottom: 20px; } }
