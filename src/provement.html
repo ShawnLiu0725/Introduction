@@ -13,7 +13,7 @@
   <body>
     @@include('include/nav.html')
     <section class="bg">
-        <div class="boxsetting setting2">
+        <div class="boxsetting setting2" id="rwdset">
             <div style="text-align: center;color:#413f44;" id="boxdesign">
                 <h3>證明文件</h3>
             </div>
@@ -117,9 +117,9 @@
                 </div>
             </div>
         </div>
-        <div style="margin-top: 20px;text-align: center; display: flex;">
-            <div style="flex-basis: 50%;"><a href="index.html"><button class="buttonset">Home</button></a></div>
-            <div style="flex-basis: 50%;"><a href="javascript:history.back()"><button class="buttonset">Go Back</button></a></div>
+        <div id="btnbox">
+            <div id="btnboxlf"><a href="index.html"><button class="buttonset">Home</button></a></div>
+            <div id="btnboxrt"><a href="javascript:history.back()"><button class="buttonset">Go Back</button></a></div>
         </div>
     </section>
     @@include('include/footer.html')
