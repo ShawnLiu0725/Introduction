@@ -1,4 +1,15 @@
 @import "_footer.scss";
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.main{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1980px;
+}
 #ftbg{
     padding: 120px 50px 120px 50px;
     background-color: 	#e3d5b0;

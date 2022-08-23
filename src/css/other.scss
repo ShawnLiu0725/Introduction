@@ -1,4 +1,15 @@
 @import "_footer.scss";
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.main{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1980px;
+}
 .touch{
     li{
         list-style-type: disc;
