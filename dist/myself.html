@@ -11,33 +11,39 @@
     <link rel="stylesheet" href="css/other.css">
   </head>
   <body class="main">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #645450;">
-    <a href="logo.html"><img src="img/logo.png" style="width:150px;height:100px;margin-right: 50px;margin-left: 35px;" alt="logo"></a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" id="menu">
-      <ul class="navbar-nav mr-auto">
+    <div calss="main">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #645450;">
+    <a href="logo.html"><img src="img/logo.png" id="nav_logo" alt="logo"></a>
+    <div class="navbar-toggler menu_btn" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="menu_btn_burger">
+        </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html" style="padding-right: 50px;color: #F0F0F0;">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html" style="padding-right: 50px;color: #F0F0F0;">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://www.instagram.com/_shawn__liu/" style="padding-right: 50px;">Instagram</a>
+        <a class="nav-link" href="https://www.instagram.com/_shawn__liu/" style="padding-right: 50px;">Instagram</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com/sean.liu.7545/" style="padding-right: 50px;">Facebook</a>
+        <a class="nav-link" href="https://www.facebook.com/sean.liu.7545/" style="padding-right: 50px;">Facebook</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/ShawnLiu0725" style="padding-right: 50px;">Github</a>
+        <a class="nav-link" href="https://github.com/ShawnLiu0725" style="padding-right: 50px;">Github</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             My Interest Introduction
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Street_dance" target="_blank">Street Dance</a>
             <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Locking_(dance)" target="_blank">Locking</a>
         </li>
-      </ul>
+    </ul>
     </div>
-</nav>
+  </nav>
+</div>
     <section class="bg">
         <h3 class="title">自傳</h3>
         <span class="wordsetting">雖是傷痛，依舊向前—成長背景:</span><br>
@@ -189,22 +195,25 @@
             <div class="box-3"><a href="javascript:history.back()"><button class="buttonset"  style="width: 50%;">Go Back</button></a></div>
         </div>
     </section>
+    <div class="main">
     <footer>
-    <div id="footerall">
-       <div id="footerleft">
-           <ul>
-               <li><a href="https://www.facebook.com/sean.liu.7545/" target="_blank">Facebook</a></li>
-               <li><a href="https://github.com/ShawnLiu0725" target="_blank">Github</a></li>
-               <li><a href="https://www.instagram.com/_shawn__liu/" target="_blank">Instagram</a></li>
-           </ul>
-       </div>
-       <div id="footerright">
-           <span>&copy; 2022 ShawnLiu Design</span>
-       </div>
-    </div>
-</footer>
+        <div id="footerall">
+        <div id="footerleft">
+            <ul>
+                <li><a href="https://www.facebook.com/sean.liu.7545/" target="_blank">Facebook</a></li>
+                <li><a href="https://github.com/ShawnLiu0725" target="_blank">Github</a></li>
+                <li><a href="https://www.instagram.com/_shawn__liu/" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <div id="footerright">
+            <span>&copy; 2022 ShawnLiu Design</span>
+        </div>
+        </div>
+    </footer>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

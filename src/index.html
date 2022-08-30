@@ -11,99 +11,107 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body class="main">
+  <body>
     @@include('include/nav.html')
     <div>
         <section class="hung" id="ftbg">
-            <div class="spbox">
-                <div class="spbox1">
-                    @@include('include/carousel.html')
-                    <div class="hung-dog">
-                        <img src="img/dog.png" width="515px" alt="">
+            <div class="main">
+                <div class="spbox">
+                    <div class="spbox1">
+                        @@include('include/carousel.html')
+                        <div class="hung-dog">
+                            <img src="img/dog.png" id="cutedog" alt="">
+                        </div>
+                    </div>
+                    <div class="spbox2">
+                        <div class="list" id="listbox1">
+                            <span>目錄</span>
+                        </div>
+                        <div class="list" id="listbox2">
+                            <a href="myself.html"><button class="buttonset">自傳</button></a>
+                        </div>
+                        <div class="list" id="listbox3">
+                            <a href="provement.html"><button class="buttonset">經歷證明文件</button></a>
+                        </div>
+                        <div class="list" id="listbox4">
+                            <a href="streetvideos.html"><button class="buttonset">街舞課程及比賽影片</button></a>
+                        </div>
+                        <div class="list" id="listbox5" style="margin-bottom: 0;">
+                            <a href="connect.html"><button class="buttonset">舞展影片及作品連結</button></a>
+                        </div>
                     </div>
                 </div>
-                <div class="spbox2">
-                    <div class="list" id="listbox1">
-                        <span>目錄</span>
-                    </div>
-                    <div class="list" id="listbox2">
-                        <a href="myself.html"><button class="buttonset">自傳</button></a>
-                    </div>
-                    <div class="list" id="listbox3">
-                        <a href="provement.html"><button class="buttonset">經歷證明文件</button></a>
-                    </div>
-                    <div class="list" id="listbox4">
-                        <a href="streetvideos.html"><button class="buttonset">街舞課程及比賽影片</button></a>
-                    </div>
-                    <div class="list" id="listbox5" style="margin-bottom: 0;">
-                        <a href="connect.html"><button class="buttonset">舞展影片及作品連結</button></a>
-                    </div>
+                <div class="col text-light text-center mt-1"  data-aos="fade-up"
+                data-aos-duration="3000" >
+                    <i class="fa-solid fa-chevron-down" style="color: #79b1d6;margin-top:25px"></i>            
                 </div>
-            </div>
-            <div class="col text-light text-center mt-1"  data-aos="fade-up"
-            data-aos-duration="3000" >
-                <i class="fa-solid fa-chevron-down" style="color: #79b1d6;margin-top:25px"></i>            
             </div>
         </section>
         <section id="ftbg-1">
-            <div class="sctop" data-aos="fade-up"
-                data-aos-duration="3000">
-                <div class="box">
-                    <div class="box1" id="set-1">
-                        <h3>Shawn Liu</h3>
-                        <p class="word">
-                            出身平凡，卻積極向學。<br>
-                            為了目標，為了夢想，為了成為更好的自己，<br>
-                            一次又一次的挫敗，仍澆不熄那向上之心。<br>
-                            再來一年或許是種煎熬，但也藉此檢視自己的不足，<br>
-                            遇到困難，我願意選擇面對，我願意加倍努力......
-                        </p>
-                        <a href="myself.html"><button class="spbtn">了解更多</button></a>
-                    </div>
-                    <div class="box2">
-                        <img id="photo" src="img/me.jpg" alt="my photo">
+            <div class="main">
+                <div class="sctop" data-aos="fade-up"
+                    data-aos-duration="3000">
+                    <div class="box">
+                        <div class="box1" id="set-1">
+                            <h3>Shawn Liu</h3>
+                            <p class="word">
+                                出身平凡，卻積極向學。<br>
+                                為了目標，為了夢想，為了成為更好的自己，<br>
+                                一次又一次的挫敗，仍澆不熄那向上之心。<br>
+                                再來一年或許是種煎熬，但也藉此檢視自己的不足，<br>
+                                遇到困難，我願意選擇面對，我願意加倍努力......
+                            </p>
+                            <a href="myself.html"><button class="spbtn">了解更多</button></a>
+                        </div>
+                        <div class="box2">
+                            <img id="photo" src="img/me.jpg" alt="my photo">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col text-light text-center mt-1"  data-aos="fade-up"
-            data-aos-duration="3000" >
-                <i class="fa-solid fa-chevron-down" style="color: #79b1d6;margin-top:25px"></i>            
+                <div class="col text-light text-center mt-1"  data-aos="fade-up"
+                data-aos-duration="3000" >
+                    <i class="fa-solid fa-chevron-down" style="color: #79b1d6;margin-top:25px"></i>            
+                </div>
             </div>
         </section>
         <section id="ftbg-2">
-            <div class="sctop" data-aos="fade-up"
-            data-aos-duration="3000">
-                <div id="boxes">
-                    <div id="box--1">
-                        <div style="text-align: center;margin-bottom: 50px;">
-                            <a href="streetvideos.html"><button class="spbtn">街舞課程及比賽影片</button></a>
-                        </div>
-                        <div class="box">
-                            <div class="box-1"><iframe width="100%"  src="https://www.youtube.com/embed/Jy05kTMrkdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                            <div class="box-2"><iframe width="100%"  src="https://www.youtube.com/embed/NEjvI1ZQupc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                            <div class="box-3"><iframe width="100%"  src="https://www.youtube.com/embed/G7DnNVO7B6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="main">
+                <div class="sctop" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <div id="boxes">
+                        <div id="box--1">
+                            <div style="text-align: center;margin-bottom: 50px;">
+                                <a href="streetvideos.html"><button class="spbtn-1">街舞課程及比賽影片</button></a>
+                            </div>
+                            <div class="box" id="videobox">
+                                <div class="box-1"><iframe width="100%" class="videoset" src="https://www.youtube.com/embed/Jy05kTMrkdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                <div class="box-2"><iframe width="100%" class="videoset" src="https://www.youtube.com/embed/NEjvI1ZQupc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                <div class="box-3"><iframe width="100%" class="videoset" src="https://www.youtube.com/embed/G7DnNVO7B6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="box--2" class="col text-light text-center mt-1"  data-aos="fade-up"
-            data-aos-duration="3000" >
-                <i class="fa-solid fa-chevron-down" style="color: #79b1d6;margin-top:25px"></i>            
+                <div id="box--2" class="col text-light text-center mt-1"  data-aos="fade-up"
+                data-aos-duration="3000" >
+                    <i class="fa-solid fa-chevron-down" style="color: #79b1d6;margin-top:25px"></i>            
+                </div>
             </div>
         </section>
         <section id="ftbg-3">
-            <div class="sctop" data-aos="fade-up"
-                data-aos-duration="3000">
-                <div id="img">
-                    <img src="img/logo.png" width="400px" alt="">
-                </div>
-                <div id="lastword" style="text-align: left;">
-                    <h4>給每位讀到這裡的你:</h4>
-                    <p>2013，TED x Taipei，
-                    臺大醫學系柯文哲教授在演說的最後講了一句這樣的話：<br>
-                    「最困難的不是面對挫折打擊，最困難的是面對挫折打擊，卻沒有失去對人世之熱情。」，<br>
-                    或許我們曾被命運嘲弄，或許我們曾數度想要放棄，但沒有永不放棄之心，又何以品嘗成功的碩果。<br>
-                    對萬事抱有好奇，不曾停下腳步，用這樣的信條砥礪自己，造就更好的自己。</p>
+            <div class="main">
+                <div class="sctop" data-aos="fade-up"
+                    data-aos-duration="3000">
+                    <div id="img">
+                        <img src="img/logo.png" class="lastph" alt="">
+                    </div>
+                    <div id="lastword" style="text-align: left;">
+                        <h4>給每位讀到這裡的你:</h4>
+                        <p>2013，TED x Taipei，
+                        臺大醫學系柯文哲教授在演說的最後講了一句這樣的話：<br>
+                        「最困難的不是面對挫折打擊，最困難的是面對挫折打擊，卻沒有失去對人世之熱情。」，<br>
+                        或許我們曾被命運嘲弄，或許我們曾數度想要放棄，但沒有永不放棄之心，又何以品嘗成功的碩果。<br>
+                        對萬事抱有好奇，不曾停下腳步，用這樣的信條砥礪自己，造就更好的自己。</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -111,6 +119,7 @@
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/568a5edde4.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

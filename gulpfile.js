@@ -101,7 +101,7 @@ gulp.task('watch', function () {
 	gulp.watch(['src/include/*.html'], ['fileinclude']);
 	gulp.watch(['src/css/*.scss','src/css/*/*.scss'], ['scss']);
 	gulp.watch(['src/js/*.js','src/js/partials/**']);
-	gulp.watch(['src/img/**','src/js/static'], ['copy']);
+	gulp.watch(['src/img/**','src/js/*'], ['copy']);
 })
 
 //預設執行 

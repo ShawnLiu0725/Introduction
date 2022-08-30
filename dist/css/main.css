@@ -21,22 +21,18 @@ footer {
   text-align: right;
   padding-right: 200px; }
 
-@media (max-width: 960px) {
-  footer {
-    padding: 25px 50px; } }
-
 html {
   box-sizing: border-box; }
 
 .main {
   width: 100%;
-  margin: 0 auto;
   max-width: 1980px; }
 
 #ftbg {
   padding: 120px 50px 120px 50px;
   background-color: #e3d5b0;
-  height: 100vh; }
+  height: 100vh;
+  display: flex; }
 
 #ftbg-1 {
   padding: 100px;
@@ -65,11 +61,19 @@ html {
     text-align: center; }
 
 .spbox {
-  display: flex; }
+  display: flex;
+  max-width: 929px;
+  min-width: 929px;
+  max-height: 485px;
+  min-height: 485px;
+  margin: 0 auto;
+  border: 5px solid #79b1d6;
+  background-color: #79b1d6;
+  border-radius: 30px;
+  margin-bottom: 20px; }
 
 .spbox1 {
-  flex-basis: 70%;
-  margin-left: 210px; }
+  flex-basis: 70%; }
 
 .hung {
   position: relative; }
@@ -77,18 +81,21 @@ html {
 .hung-dog {
   position: absolute;
   top: 0;
-  left: 160px; }
+  left: 195px; }
 
 .spbox2 {
+  max-height: 485px;
   flex-basis: 30%;
-  margin-right: 210px;
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
-  border: 5px solid #79b1d6;
-  border-radius: 0 30px 30px 0;
-  background-color: #fff9e9; }
+  background-color: #fff9e9;
+  border-left: 5px solid #79b1d6;
+  border-radius: 0 25px 25px 0; }
+
+#carset {
+  border-radius: 25px 0 0 25px; }
 
 .list {
   text-align: center;
@@ -101,33 +108,33 @@ html {
 #listbox1 {
   flex-basis: 20%;
   font-size: 20px;
-  padding-top: 8px;
+  padding-top: 5px;
   padding-bottom: 5px;
   color: #fff9e9;
   background-color: #79b1d6; }
 
 #listbox2 {
   flex-basis: 20%;
-  margin-left: 50px;
-  margin-right: 50px; }
+  margin-left: 20px;
+  margin-right: 20px; }
 
 #listbox3 {
   flex-basis: 20%;
-  margin-left: 50px;
-  margin-right: 50px; }
+  margin-left: 20px;
+  margin-right: 20px; }
 
 #listbox4 {
   flex-basis: 20%;
-  margin-left: 50px;
-  margin-right: 50px; }
+  margin-left: 20px;
+  margin-right: 20px; }
 
 #listbox5 {
   flex-basis: 20%;
-  margin-left: 50px;
-  margin-right: 50px; }
+  margin-left: 20px;
+  margin-right: 20px; }
 
 .buttonset {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   padding-left: 5px;
   padding-right: 5px;
@@ -189,7 +196,21 @@ html {
   border-radius: 30px;
   transition-duration: 0.4s; }
   .spbtn:hover {
-    background-color: #fff9e9;
+    background-color: #f2ede7;
+    color: #79b1d6; }
+
+.spbtn-1 {
+  width: 350px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff9e9;
+  background-color: #79b1d6;
+  border: 5px solid #79b1d6;
+  border-radius: 30px;
+  transition-duration: 0.4s; }
+  .spbtn-1:hover {
+    background-color: #e3d5b0;
     color: #79b1d6; }
 
 #photo {
@@ -220,3 +241,169 @@ html {
   background-color: #fff9e9;
   margin: 0 200px 0 200px;
   padding: 10px 0 10px 125px; }
+
+.menu_btn {
+  max-width: 35px;
+  min-width: 35px;
+  min-height: 35px;
+  max-height: 35px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  padding: 0; }
+
+.menu_btn_burger {
+  width: 14px;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all .5s ease-in-out; }
+
+.menu_btn_burger::before,
+.menu_btn_burger::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all .5s ease-in-out; }
+
+.menu_btn_burger::before {
+  transform: translateY(-6px); }
+
+.menu_btn_burger::after {
+  transform: translateY(6px); }
+
+.menu_btn.open .menu_btn_burger {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none; }
+
+.menu_btn.open .menu_btn_burger::before {
+  transform: rotate(45deg) translate(35px, -35px); }
+
+.menu_btn.open .menu_btn_burger::after {
+  transform: rotate(-45deg) translate(35px, 35px); }
+
+#nav_logo {
+  width: 150px;
+  height: 100px;
+  margin-right: 50px;
+  margin-left: 35px; }
+
+.lastph {
+  width: 400px; }
+
+#cutedog {
+  width: 515px; }
+
+#carcontrol {
+  margin-bottom: 8px; }
+
+@media (max-width: 1048px) {
+  #nav_logo {
+    width: 75px;
+    height: 50px;
+    margin: 0; }
+  #ftbg {
+    padding: 120px 0 120px 0;
+    height: 100%; }
+  .hung-dog {
+    left: 0; }
+  .spbox {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    max-height: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: #e3d5b0;
+    border: none; }
+  .spbox1 {
+    width: 100%; }
+  .spbox2 {
+    border-top: none;
+    margin-top: 20px;
+    border: 5px solid #79b1d6;
+    border-radius: 30px;
+    margin: 10px; }
+  #carset {
+    border-radius: 0;
+    height: 100%;
+    max-height: 400px; }
+  #carcontrol {
+    margin-bottom: 75px; }
+  footer {
+    width: 100%;
+    padding: 25px 50px; }
+  #footerall {
+    flex-direction: column;
+    text-align: center; }
+    #footerall ul {
+      padding: 0;
+      margin: 0; }
+      #footerall ul li {
+        margin: 0;
+        padding-right: 0;
+        padding-left: 10px; }
+  #footerright {
+    padding: 0;
+    text-align: center; }
+  #ftbg-1 {
+    padding: 20px;
+    padding-top: 35px;
+    height: 100%; }
+  #photo {
+    width: 100%; }
+  #ftbg-2 {
+    height: 100%; }
+  #ftbg-3 {
+    height: 100%; }
+  #lastword {
+    margin: 0;
+    padding: 10px; }
+  .lastph {
+    width: 100%;
+    max-width: 400px; }
+  #videobox {
+    flex-direction: column; }
+  .spbtn-1 {
+    width: 100%; }
+  .box-1 {
+    margin: 10px;
+    border: none; }
+  .box-2 {
+    border: none; }
+  .box-3 {
+    border: none; }
+  .videoset {
+    border: 5px solid #79b1d6;
+    height: 100%; }
+  #boxes {
+    height: 100%;
+    max-height: 1000px; }
+  #box--1 {
+    margin: 0; }
+  .box1 {
+    margin: 0; }
+  .box {
+    flex-direction: column-reverse; }
+  .spbtn {
+    width: 100%; }
+  #set-1 {
+    margin: 20px; }
+  #cutedog {
+    width: 300px; }
+  .hung-dog {
+    left: -20px;
+    top: 50px; } }
