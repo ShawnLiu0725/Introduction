@@ -689,4 +689,32 @@ html {
   .logoboxlf {
     margin: 0 20px; }
   .logoboxrt p {
-    font-size: 16.5px; } }
+    font-size: 16.5px; }
+  .pictureset-9-l {
+    margin-bottom: 30px; }
+  #wordset4 {
+    top: 155px;
+    left: 43%; }
+  #wordset5 {
+    top: 155px;
+    left: 43%; }
+  .tablebg1 {
+    border: none; }
+  .spsetbox {
+    margin-bottom: 10px; }
+  #boxset---1 {
+    padding: 10px 25px 35px 25px; }
+  .olset-1 {
+    padding: 0 10px 0 10px; }
+    .olset-1 li ol {
+      padding: 0 10px 0 10px; }
+  .ulset {
+    padding: 0 10px 0 10px; }
+    .ulset li ul {
+      padding: 0 10px 0 10px; }
+  .ulset-1 {
+    padding: 0 10px 0 10px; }
+    .ulset-1 li ul {
+      padding: 0 10px 0 10px; }
+      .ulset-1 li ul li ul {
+        padding: 0 10px 0 10px; } }
