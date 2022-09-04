@@ -5,16 +5,117 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
+        <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+
   </head>
   <body>
+    <script>
+    $(function(){
+        _init();
+    })
+    function _init(){
+        $("body").removeClass("init");
+           $("#lightbox1").animate({opacity : 0},800, 'easeInQuint',function(){
+             $("#lightbox1").remove();
+             $("#loading").animate({opacity : 0},300, 'easeOutCubic',function(){
+               $("body").css( "background-color","transparent").css("overflow-y","")
+                $("#loading").remove();
+             });
+        });
+    }
+</script>
+<style>
+    @-webkit-keyframes loading2 {
+       0% {
+        transform: translateY(15px);
+        opacity: .7;
+       }
+       100% {
+         transform: translateY(0px);
+         opacity: 1;
+       }
+    }
+    @keyframes loading2 {
+       0% {
+        transform: translateY(15px);
+        opacity: .7;
+    }
+      100% {
+        transform: translateY(0px);
+        opacity: 1;
+      }
+    }
+    body.init{
+        overflow-y: hidden;
+        background-color: #645450;
+    }
+    body.init>*{
+        display: none;
+    }
+    .logo_1{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        animation: loading2 .95s infinite alternate;
+        -moz-animation: loading2 .95s infinite alternate;
+        -webkit-animation: loading2 .95s infinite alternate;
+        animation-timing-function: ease-in-out;
+    }
+    #loading{
+        z-index: 10001;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 150px;
+        height: 75px;
+        margin-left: -70px;
+        margin-top: -40px;
+        opacity: 1;
+        display: block;
+    }
+    #lightbox1{
+        opacity:1;
+    
+        position: fixed;
+        top: 0; left: 0;right: 0;bottom: 0;
+        z-index: 10000;
+        background-color: #645450;
+        display: block;
+    }
+    ::selection {
+        background-color: #645450;
+        color: #ffffff;
+    }
+    ::-moz-selection {
+        background-color: #645450;
+        color: #ffffff;
+    }
+    img::selection {
+        background: transparent;
+    }
+    img::-moz-selection {
+        background: transparent;
+    }
+</style>
+    
+<div id="loading">
+    <div class="logo_1">
+    </div>
+</div>
+<div id="lightbox1"></div>
     <div calss="main">
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #645450;">
-    <a href="logo.html"><img src="img/logo.png" id="nav_logo" alt="logo"></a>
+    <div>
+      <a href="index.html"><img src="img/logo.png" id="nav_logo" alt="logo"></a>
+    </div>
     <div class="navbar-toggler menu_btn" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <div class="menu_btn_burger">
         </div>
@@ -25,21 +126,16 @@
         <a class="nav-link" href="index.html" style="padding-right: 50px;color: #F0F0F0;">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="https://www.instagram.com/_shawn__liu/" style="padding-right: 50px;">Instagram</a>
+        <a class="nav-link" href="https://www.facebook.com/sean.liu.7545/" style="padding-right: 50px;">Facebook</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="https://www.facebook.com/sean.liu.7545/" style="padding-right: 50px;">Facebook</a>
+        <a class="nav-link" href="https://www.instagram.com/_shawn__liu/" style="padding-right: 50px;">Instagram</a>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="https://github.com/ShawnLiu0725" style="padding-right: 50px;">Github</a>
         </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            My Interest Introduction
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Street_dance" target="_blank">Street Dance</a>
-            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Locking_(dance)" target="_blank">Locking</a>
+        <li class="nav-item">
+          <a class="nav-link" href="logo.html" style="padding-right: 50px;">About This Web</a>
         </li>
     </ul>
     </div>
@@ -48,9 +144,11 @@
     <div>
         <section class="hung" id="ftbg">
             <div class="main">
-                <div class="spbox">
-                    <div class="spbox1">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: 100%;">
+                <div class="col text-light text-center mt-1"  data-aos="fade-up"
+                data-aos-duration="3000" style="margin: 0;padding: 0;">
+                    <div class="spbox">
+                        <div class="spbox1">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: 100%;">
     <ol class="carousel-indicators" id="carcontrol">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="background-color: #fff9e9;"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1" style="background-color: #fff9e9;"></li>
@@ -76,25 +174,26 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
-                        <div class="hung-dog">
-                            <img src="img/dog.png" id="cutedog" alt="">
+                            <div class="hung-dog">
+                                <img src="img/dog.png" id="cutedog" alt="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="spbox2">
-                        <div class="list" id="listbox1">
-                            <span>目錄</span>
-                        </div>
-                        <div class="list" id="listbox2">
-                            <a href="myself.html"><button class="buttonset">自傳</button></a>
-                        </div>
-                        <div class="list" id="listbox3">
-                            <a href="provement.html"><button class="buttonset">經歷證明文件</button></a>
-                        </div>
-                        <div class="list" id="listbox4">
-                            <a href="streetvideos.html"><button class="buttonset">街舞課程及比賽影片</button></a>
-                        </div>
-                        <div class="list" id="listbox5" style="margin-bottom: 0;">
-                            <a href="connect.html"><button class="buttonset">舞展影片及作品連結</button></a>
+                        <div class="spbox2">
+                            <div class="list" id="listbox1">
+                                <span>目錄</span>
+                            </div>
+                            <div class="list" id="listbox2">
+                                <a href="myself.html"><button class="buttonset">自傳</button></a>
+                            </div>
+                            <div class="list" id="listbox3">
+                                <a href="provement.html"><button class="buttonset">經歷證明文件</button></a>
+                            </div>
+                            <div class="list" id="listbox4">
+                                <a href="streetvideos.html"><button class="buttonset">街舞課程及比賽影片</button></a>
+                            </div>
+                            <div class="list" id="listbox5" style="margin-bottom: 0;">
+                                <a href="connect.html"><button class="buttonset">舞展影片及作品連結</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -178,8 +277,8 @@
         <div id="footerleft">
             <ul>
                 <li><a href="https://www.facebook.com/sean.liu.7545/" target="_blank">Facebook</a></li>
-                <li><a href="https://github.com/ShawnLiu0725" target="_blank">Github</a></li>
                 <li><a href="https://www.instagram.com/_shawn__liu/" target="_blank">Instagram</a></li>
+                <li><a href="https://github.com/ShawnLiu0725" target="_blank">Github</a></li>
             </ul>
         </div>
         <div id="footerright">
@@ -189,9 +288,8 @@
     </footer>
 </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/main.js"></script>
+        <!-- Optional JavaScript -->
+    <!-- Gsap first, then Font Awesome, then AOS, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
     <script src="https://kit.fontawesome.com/568a5edde4.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -200,8 +298,8 @@
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="js/main.js"></script>
+    </body>
 </html>

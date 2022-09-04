@@ -6,15 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/other.css">
+
 </head>
   <body>
     <div calss="main">
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #645450;">
-    <a href="logo.html"><img src="img/logo.png" id="nav_logo" alt="logo"></a>
+    <div>
+      <a href="index.html"><img src="img/logo.png" id="nav_logo" alt="logo"></a>
+    </div>
     <div class="navbar-toggler menu_btn" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <div class="menu_btn_burger">
         </div>
@@ -25,21 +32,16 @@
         <a class="nav-link" href="index.html" style="padding-right: 50px;color: #F0F0F0;">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="https://www.instagram.com/_shawn__liu/" style="padding-right: 50px;">Instagram</a>
+        <a class="nav-link" href="https://www.facebook.com/sean.liu.7545/" style="padding-right: 50px;">Facebook</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="https://www.facebook.com/sean.liu.7545/" style="padding-right: 50px;">Facebook</a>
+        <a class="nav-link" href="https://www.instagram.com/_shawn__liu/" style="padding-right: 50px;">Instagram</a>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="https://github.com/ShawnLiu0725" style="padding-right: 50px;">Github</a>
         </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            My Interest Introduction
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Street_dance" target="_blank">Street Dance</a>
-            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Locking_(dance)" target="_blank">Locking</a>
+        <li class="nav-item">
+          <a class="nav-link" href="logo.html" style="padding-right: 50px;">About This Web</a>
         </li>
     </ul>
     </div>
@@ -82,8 +84,8 @@
         <div id="footerleft">
             <ul>
                 <li><a href="https://www.facebook.com/sean.liu.7545/" target="_blank">Facebook</a></li>
-                <li><a href="https://github.com/ShawnLiu0725" target="_blank">Github</a></li>
                 <li><a href="https://www.instagram.com/_shawn__liu/" target="_blank">Instagram</a></li>
+                <li><a href="https://github.com/ShawnLiu0725" target="_blank">Github</a></li>
             </ul>
         </div>
         <div id="footerright">
@@ -92,15 +94,18 @@
         </div>
     </footer>
 </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/main.js"></script>
+        <!-- Optional JavaScript -->
+    <!-- Gsap first, then Font Awesome, then AOS, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/568a5edde4.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

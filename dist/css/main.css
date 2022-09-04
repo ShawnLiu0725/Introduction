@@ -31,24 +31,24 @@ html {
 #ftbg {
   padding: 120px 50px 120px 50px;
   background-color: #e3d5b0;
-  height: 100vh;
+  height: 100%;
   display: flex; }
 
 #ftbg-1 {
   padding: 100px;
   background-color: #f2ede7;
-  height: 110vh; }
+  height: 100%; }
 
 #ftbg-2 {
   padding: 50px;
   background-color: #e3d5b0;
-  height: 100vh; }
+  height: 100%; }
 
 #ftbg-3 {
   padding: 100px 50px 50px 50px;
   background-color: #f2ede7;
   color: #413f44;
-  height: 90vh; }
+  height: 100%; }
   #ftbg-3 h4 {
     font-size: 20px;
     font-weight: bold;
@@ -80,7 +80,7 @@ html {
 
 .hung-dog {
   position: absolute;
-  top: 0;
+  top: -115px;
   left: 195px; }
 
 .spbox2 {
@@ -303,7 +303,7 @@ html {
   width: 400px; }
 
 #cutedog {
-  width: 515px; }
+  width: 475px; }
 
 #carcontrol {
   margin-bottom: 8px; }
@@ -314,10 +314,11 @@ html {
     height: 50px;
     margin: 0; }
   #ftbg {
-    padding: 120px 0 120px 0;
+    padding: 80px 0 25px 0;
     height: 100%; }
   .hung-dog {
-    left: 0; }
+    left: -20px;
+    top: -70px; }
   .spbox {
     flex-direction: column;
     width: 100%;
@@ -328,7 +329,7 @@ html {
     max-width: 100%;
     min-width: 100%;
     background-color: #e3d5b0;
-    border: none; }
+    border: 1px solid #e3d5b0; }
   .spbox1 {
     width: 100%; }
   .spbox2 {
@@ -336,13 +337,14 @@ html {
     margin-top: 20px;
     border: 5px solid #79b1d6;
     border-radius: 30px;
-    margin: 10px; }
+    margin: 30px 10px 10px 10px;
+    padding-top: 30px; }
   #carset {
     border-radius: 0;
     height: 100%;
     max-height: 400px; }
   #carcontrol {
-    margin-bottom: 75px; }
+    margin-bottom: 35px; }
   footer {
     width: 100%;
     padding: 25px 50px; }
@@ -404,9 +406,6 @@ html {
     margin: 20px; }
   #cutedog {
     width: 300px; }
-  .hung-dog {
-    left: -20px;
-    top: 50px; }
   #bordersetsp {
     border-top: 5px solid #79b1d6;
     border-bottom: 5px solid #79b1d6; } }

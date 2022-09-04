@@ -6,14 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/other.css">
+
   </head>
-  <body class="main">
+  <body>
     <div calss="main">
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #645450;">
-    <a href="logo.html"><img src="img/logo.png" id="nav_logo" alt="logo"></a>
+    <div>
+      <a href="index.html"><img src="img/logo.png" id="nav_logo" alt="logo"></a>
+    </div>
     <div class="navbar-toggler menu_btn" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <div class="menu_btn_burger">
         </div>
@@ -24,175 +32,186 @@
         <a class="nav-link" href="index.html" style="padding-right: 50px;color: #F0F0F0;">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="https://www.instagram.com/_shawn__liu/" style="padding-right: 50px;">Instagram</a>
+        <a class="nav-link" href="https://www.facebook.com/sean.liu.7545/" style="padding-right: 50px;">Facebook</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="https://www.facebook.com/sean.liu.7545/" style="padding-right: 50px;">Facebook</a>
+        <a class="nav-link" href="https://www.instagram.com/_shawn__liu/" style="padding-right: 50px;">Instagram</a>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="https://github.com/ShawnLiu0725" style="padding-right: 50px;">Github</a>
         </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            My Interest Introduction
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Street_dance" target="_blank">Street Dance</a>
-            <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Locking_(dance)" target="_blank">Locking</a>
+        <li class="nav-item">
+          <a class="nav-link" href="logo.html" style="padding-right: 50px;">About This Web</a>
         </li>
     </ul>
     </div>
   </nav>
 </div>
     <section class="bg">
-        <h3 class="title">自傳</h3>
-        <span class="wordsetting">雖是傷痛，依舊向前—成長背景:</span><br>
-        <p>&emsp;&emsp;自有記憶以來，我便早已是個沒有父親的孩子，父親因精神疾病而與母親離婚，於是她便一人擔下照顧我的責任，但也因此母親時常忙於工作，於是獨自生活便是我童年的縮影。雪上加霜的是，當時母親的上司，也對我與母親暴力相向，為了生存，這一切種種卻又是不可避免的。所幸的是這一切在外婆的幫助下逐漸好轉，我便迎向嶄新的生活。<br><br>&emsp;&emsp;年幼時即便母親難以抽空陪在我身邊，但她也沒因此疏忽對我的教育，而我也主動積極參加校內外的各式活動，為童年累積許多特別的回憶。母親總是在我犯錯時給予我正確的教導與鼓勵，當我有任何想法時，她也願意和我討論，支持我的想法跟決定，而這也造就了我願意不斷挑戰、嘗試的性格，而努力成為更好的自己，也是我認為能給她的最大的回報。<br></p>
-        <span class="wordsetting">挑戰自我，毅然決然—去到高雄:</span><br>
-        <p>&emsp;&emsp;國三畢業那年，我萌生了一個想法—我想挑戰自我、開開眼界，在和母親及師長的討論過後，我決定去到高雄求學。一個年僅高一的孩子，在這些年中，逐漸從一開始連自己起床都有困難，到能夠自我獨立的人，慢慢地趨向成熟。在高雄生活的這些年，也遇到了許多厲害的人，體認到自己的渺小與不足，因此也更加認清自己必須加倍努力的事實。<br></p>
-        <span class="wordsetting">從零開始，不畏挑戰—街舞與我:</span><br>
-        <p>&emsp;&emsp;國中時期的我就對街舞充滿著興趣，但一直沒機會親身嘗試，直到高中，才鼓足了勇氣踏出了第一步。高一在學長姐的帶領下，我慢慢的扎實基本功，參與了各式不同的舞台表演。高二時，我依然繼續在勁舞社中鑽研相關技巧，但這次的我多了些不同的身分， 我擔任了中正勁舞的文書兼器材幹部一職，在這一年中，我與其他的四人，一起主辦了十七校聯合迎新，一起以幹部的身分帶領社團參加了各種不同大小的活動。在這一年，除了學到舞蹈的技巧，更學到了如何帶領一個團體、如何與其他共事的夥伴們分工、如何規劃活動......無法在一般課程所學到的經驗，擔任幹部的這段時期真的是令我收穫滿滿。 高三學測後，我進行了更多嘗試，去接觸各種舞風、競賽，不斷的踏出新的一步，慢慢摸索出屬於自己的風格。對我來說，街舞，不僅是一個運動，它甚至帶給我磨練，也帶給我各種回憶及歡笑，它已然成為我生命中不可分割的一部分。<br></p>
-        <span class="wordsetting">了解自我，不斷精進—我所認識的自己:</span><br>
-        <p>&emsp;&emsp;我是一個個性隨和的人，平時不太生氣，造就我這一性格的是「時間」。年幼時的我是個脾氣不怎麼好的孩子，但在成長的這段過程中，我曾親眼見識過憤怒對於自己及他人的傷害，每當我與他人發生衝突後，我總會反覆檢討自己，因為我知道事發總有原因，而這樣的修正也使我逐漸變得成熟。<br><br>&emsp;&emsp;每當犯錯時，我並不會去找理由來替自己脫罪，而是檢視自己的過失，唯有面對，才能造就更好的自己。<br></p>
-        <span class="wordsetting">即便挫折，仍願努力—關於重考:</span><br>
-        <p style="margin-bottom:30px">&emsp;&emsp;重考，坦白說，是個艱難的抉擇。這條路上，不斷充斥著反對、勸退的聲音，但我仍舊堅行自己的道路。對我來說，這一年，不僅是重考，更應該說是養精蓄銳，用更好的實力、姿態，去面對接下來大學的四年。我想證明給所有人看我做得到，我不想愧對辛苦栽培我至今家人，我更想努力創造出屬於自己的道路。<br></p>
-        <div class="boxsetting">
-            <div class="darkbg bordertpset borderlfset borderrtset">
-                <h3 style="margin-bottom: 0;">活動經歷</h3>
-            </div>
-            <div class="box lightbg">
-                <div class="box1 borderlfset">
-                    <h4>競賽經驗</h4>
-                    <ol>
-                        <li>高中
-                            <ul>
-                                <li>第四屆全國高中物理探究實作競賽-決賽銀獎</li>
-                                <li>第四屆全國高中物理探究實作競賽-自然科素養測驗(組距:<全國>優良)</li>
-                                <li>第四屆全國高中物理探究實作競賽-實作測驗(組距:優良)</li>
-                                <li>全國高級中等學校閱讀心得寫作比賽-甲等</li>
-                                <li>國際運算思維挑戰賽-全國PR88</li>
-                                <li>High School High Vol.13個人線上賽-76名</li>
-                                <li>Rookies Vol.5-16強</li>
-                                <li>萌拋兒 Vol.2</li>
-                                <li>紅High兒 Vol.14</li>
-                                <li>紅High兒 VOl.15-32強</li>
-                                <li>Rouser x Get It Up</li>
-                                <li>街菸舞樂 Vol.2</li>
-                            </ul>
-                        </li>
-                        <li>國中、小
-                            <ul>
-                                <li>2011年屏東縣縣長盃數學競賽-國小二年級個人組第四名</li>
-                                <li>2012年屏東縣縣長盃數學競賽-國小三年級個人組第五名</li>
-                                <li>101學年度校內共讀書箱心得寫作-優良</li>
-                                <li>101學年度校內語文競賽-三年級硬體字比賽第四名</li>
-                                <li>102學年度校內美術比賽-繪畫類佳作</li>
-                                <li>102學年度校內共讀書箱心得寫作-優良</li>
-                                <li>103年屏東縣中小學聯合運動會-拔河項目第一名</li>
-                                <li>104學年度校內語文競賽-六年級國語文演說比賽第三名</li>
-                                <li>104學年度校內共讀書箱心得寫作-優良</li>
-                                <li>104學年度湯爺爺贈書感謝有你徵文-優良</li>
-                                <li>105新春到鬧元宵彩繪燈籠比賽-高年級組佳作</li>
-                                <li>屏東縣105年創意小戰隊闖關競賽-第一名</li>
-                                <li>105學年度寒假閱讀優良讀物心得寫作-優選</li>
-                            </ul>                           
-                        </li>
-                    </ol>
-                </div>
-                <div class="box2 borderrtset">
-                    <h4>社團活動</h4>
-                    <ol>
-                        <li>高一
-                            <ul>
-                                <li>18校聯合迎新</li>
-                                <li>Merry Christamas Merry Meet</li>
-                                <li>Soul out Vol.12</li>
-                                <li>Memoria·憶 Vol.1</li>
-                            </ul>
-                        </li>
-                        <li>高二
-                            <ul>
-                                <li>Summer Beat Vol.19</li>
-                                <li>Rhythm of Soul Vol.7</li>
-                                <li>Rock Senior Vol.11</li>
-                                <li>高雄市立中正高中校慶</li>
-                                <li>17校聯合迎新(主辦)</li>
-                                <li>漾我青春才藝秀</li>
-                                <li>Z世代城市論壇</li>
-                                <li>高雄市立小港高中耶誕晚會</li>
-                                <li>高雄市立高雄高商校慶</li>
-                                <li>The Christamas The Dreamy Night</li>
-                                <li>Mon_Dream</li>
-                                <li>Soul Out Vol.13</li>
-                                <li>Start It Underground</li>
-                                <li>舞點．開始 Vol.12</li>
-                                <li>Dance Revolution Vol.7</li>
-                            </ul>
-                        </li>
-                    </ol>
-                </div>
-            </div>
-            <div class="box darkbg">
-                <div class="box1 borderlfset">
-                    <h4>檢定證照</h4>
-                    <ul>
-                        <li>第七屆APX全國高中數理檢定(物理科中級)-參加證明</li>
-                        <li>第九屆APX全國高中數理檢定(物理科中高級)</li>
-                        <li>全美中學數學分級能力測驗AMC10A-優良</li>
-                        <li>TOEIC證書</li>
-                        <li>GEPT中級證書</li>
-                    </ul>
-                </div>
-                <div class="box2 borderrtset">
-                    <h4>培訓經歷</h4>
-                    <ul>
-                        <li>2020臺灣資訊奧林匹亞競賽推薦學生選拔及培訓</li>
-                        <li>勞動力發展署青年職訓-產業新尖兵試辦計畫- <br>
-                            NFT加密藝術科技暨創意互動網站開發實務人才培訓班第一梯</li>
-                    </ul>
+        <div class="main">
+            <div class="box">
+                <div class="wordmain">
+                    <h3 class="title">自傳</h3>
+                    <span class="wordsetting">雖是傷痛，依舊向前—成長背景:</span><br>
+                    <p>&emsp;&emsp;自有記憶以來，我便早已是個沒有父親的孩子，父親因精神疾病而與母親離婚，母親便獨自擔下照顧我的責任，也因此她時常忙於工作，於是獨自照顧自己變是我童年的縮影。雪上加霜的是，當時母親的上司，還對我與母親暴力相向，然而為了生存，這一切種種卻又是不可避免的。所幸的是這一切在外婆的幫助下逐漸好轉，我迎向了嶄新的生活。<br>&emsp;&emsp;年幼時即便母親難以抽空陪在我身邊，但她也沒因此疏忽對我的教育，總是在我犯錯時給予我正確的教導與鼓勵，當我有任何想法時，她也願意和我討論，支持我的想法跟決定，而這也造就了我願意不斷挑戰、嘗試的性格，而努力成為更好的自己，也是我認為能給她的最大的回報。</p>
+                    <span class="wordsetting">挑戰自我，毅然決然—去到高雄:</span><br>
+                    <p>&emsp;&emsp;國三畢業那年，我萌生了一個想法—我想挑戰自我、開開眼界，在和母親及師長的討論過後，我決定去到高雄求學。一個年僅高一的孩子，在這些年中，逐漸從一開始連自己起床都有困難，到能夠自我獨立的人，慢慢地趨向成熟。</p>
+                    <span class="wordsetting">從零開始，不畏挑戰—街舞與我:</span><br>
+                    <p>&emsp;&emsp;國中時期的我就對街舞充滿著興趣，但一直沒機會親身嘗試，直到高中，我鼓足了勇氣踏出了第一步。高一在學長姐的帶領下，我慢慢的扎實基本功，參與了各式大小不同的舞台表演。高二時， 我擔任了中正勁舞的文書兼器材幹部一職，幹部生涯的這一年裡，我與其他的四人，一起主辦了十七校聯合迎新，一起以幹部的身分帶領社團參加了各種不同大小的活動。在這一年，除了學到舞蹈的技巧，也擁有了許多寶貴的經驗，令我收穫滿滿。 高三學測後，我進行了更多嘗試，去接觸各種舞風、競賽，不斷的踏出新的一步。對我來說，街舞，不僅是一個運動，它甚至帶給我磨練，帶給我各種回憶及歡笑，它已然成為我生命中不可分割的一部分。</p>
+                    <span class="wordsetting">了解自我，不斷修正—我所認識的自己:</span><br>
+                    <p>&emsp;&emsp;我是一個個性隨和的人，平時不太生氣，造就我這一性格的是「時間」。年幼時的我是個脾氣不怎麼好的孩子，但在成長的這段過程中，我曾親眼見識過憤怒對人的傷害，因此每當我與他人發生衝突後，我總會反覆檢討自己，因為我知道事發總有原因，而這樣的修正也使我逐漸變得成熟。</p>
+                    <span class="wordsetting">即便挫折，仍願努力—關於重考:</span><br>
+                    <p>&emsp;&emsp;重考，坦白說，是個艱難的抉擇。這條路上，不斷充斥著反對、勸退的聲音，我仍舊堅行自己的道路。對我來說，這一年，不僅是重考，更應該說是養精蓄銳，用更好的實力、姿態，去面對接下來大學的四年。我想證明給所有人看我做得到，我不想愧對辛苦栽培我至今家人，我更想努力創造出屬於自己的道路。</p>
                 </div>
             </div>
             <div class="box">
-                <div class="box1 borderlfset borderbtset lightbg" id="spboxlf" >
-                    <h4>特殊活動參與及獎狀授予</h4>
-                    <ul>
-                        <li>一百年學年度陳郁昕獎學金獲頒人</li>
-                        <li>瑞光國小校內楷模</li>
-                        <li>屏東縣市長獎畢業生</li>
-                        <li>第29屆飢餓三十人道救援行動</li>
-                        <li>寫信馬拉松</li>
-                        <li>2022臺灣燈會志工服務</li>
-                    </ul>
-                </div>
-                <div class="box2 borderrtset borderbtset lightbg" id="spboxrt" >
-                    <h4>相關連結</h4>
-                    <ol>
-                        <li>舞展影片(高一)
-                            <ul class="touch">
-                                <li><a href="https://www.youtube.com/watch?v=eeox8DB4xoA&t=92s" target="_blank">Soul out Vol.12</a></li>
-                                <li><a href="https://www.youtube.com/watch?v=MKOeRrOiYJ8" target="_blank">Memoria·憶 Vol.1</a></li>
+                <div class="boxsetting" id=thebox>
+                    <div class="darkbg bordertpset borderlfset borderrtset">
+                        <h3 style="margin-bottom: 0;">活動經歷</h3>
+                    </div>
+                    <div class="box lightbg">
+                        <div class="box1 borderlfset">
+                            <h4>競賽經驗</h4>
+                            <ol>
+                                <li>高中
+                                    <ol style="list-style-type: lower-roman;">
+                                        <li>學術競賽
+                                            <ul>
+                                                <li>第四屆全國高中物理探究實作競賽-決賽銀獎</li>
+                                                <li>第四屆全國高中物理探究實作競賽-自然科素養測驗(組距:<全國>優良)</li>
+                                                <li>第四屆全國高中物理探究實作競賽-實作測驗(組距:優良)</li>
+                                                <li>全國高級中等學校閱讀心得寫作比賽-甲等</li>
+                                                <li>國際運算思維挑戰賽-全國PR88</li>
+                                            </ul>
+                                        </li>
+                                        <li>街舞比賽
+                                            <ul>
+                                                <li>High School High Vol.13個人線上賽-76名</li>
+                                                <li>Rookies Vol.5-16強</li>
+                                                <li>萌拋兒 Vol.2</li>
+                                                <li>紅High兒 Vol.14</li>
+                                                <li>紅High兒 VOl.15-32強</li>
+                                                <li>Rouser x Get It Up</li>
+                                                <li>街菸舞樂 Vol.2</li>
+                                            </ul>
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li>國中、小
+                                    <ul>
+                                        <li>2011年屏東縣縣長盃數學競賽-國小二年級個人組第四名</li>
+                                        <li>2012年屏東縣縣長盃數學競賽-國小三年級個人組第五名</li>
+                                        <li>101學年度校內共讀書箱心得寫作-優良</li>
+                                        <li>101學年度校內語文競賽-三年級硬體字比賽第四名</li>
+                                        <li>102學年度校內美術比賽-繪畫類佳作</li>
+                                        <li>102學年度校內共讀書箱心得寫作-優良</li>
+                                        <li>103年屏東縣中小學聯合運動會-拔河項目第一名</li>
+                                        <li>104學年度校內語文競賽-六年級國語文演說比賽第三名</li>
+                                        <li>104學年度校內共讀書箱心得寫作-優良</li>
+                                        <li>104學年度湯爺爺贈書感謝有你徵文-優良</li>
+                                        <li>105新春到鬧元宵彩繪燈籠比賽-高年級組佳作</li>
+                                        <li>屏東縣105年創意小戰隊闖關競賽-第一名</li>
+                                        <li>105學年度寒假閱讀優良讀物心得寫作-優選</li>
+                                    </ul>                           
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="box2 borderrtset">
+                            <h4>社團活動</h4>
+                            <ol>
+                                <li>高一
+                                    <ul>
+                                        <li>18校聯合迎新</li>
+                                        <li>Merry Christamas Merry Meet</li>
+                                        <li>Soul out Vol.12</li>
+                                        <li>Memoria·憶 Vol.1</li>
+                                    </ul>
+                                </li>
+                                <li>高二
+                                    <ul>
+                                        <li>Summer Beat Vol.19</li>
+                                        <li>Rhythm of Soul Vol.7</li>
+                                        <li>Rock Senior Vol.11</li>
+                                        <li>高雄市立中正高中校慶</li>
+                                        <li>17校聯合迎新(主辦)</li>
+                                        <li>漾我青春才藝秀</li>
+                                        <li>Z世代城市論壇</li>
+                                        <li>高雄市立小港高中耶誕晚會</li>
+                                        <li>高雄市立高雄高商校慶</li>
+                                        <li>The Christamas The Dreamy Night</li>
+                                        <li>Mon_Dream</li>
+                                        <li>Soul Out Vol.13</li>
+                                        <li>Start It Underground</li>
+                                        <li>舞點．開始 Vol.12</li>
+                                        <li>Dance Revolution Vol.7</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="box darkbg">
+                        <div class="box1 borderlfset">
+                            <h4>檢定證照</h4>
+                            <ul>
+                                <li>第七屆APX全國高中數理檢定(物理科中級)-參加證明</li>
+                                <li>第九屆APX全國高中數理檢定(物理科中高級)</li>
+                                <li>全美中學數學分級能力測驗AMC10A-優良</li>
+                                <li>TOEIC證書</li>
+                                <li>GEPT中級證書</li>
                             </ul>
-                        </li>
-                        <li>舞展影片(高二)
-                            <ul class="touch">
-                                <li><a href="https://www.youtube.com/watch?v=0_pn-fZkCpE" target="_blank">Summer Beat Vol.19</a></li>
-                                <li><a href="https://www.youtube.com/watch?v=0PMDcrUgqqk" target="_blank">Rhythm of Soul Vol.7</a></li>
-                                <li><a href="https://www.youtube.com/watch?v=lxYzKW-yRNk&t=9s" target="_blank">Rock Senior Vol.11</a></li>
-                                <li><a href="https://www.youtube.com/watch?v=tfR1XQYuiWw" target="_blank">Soul Out Vol.13</a></li>
-                                <li><a href="https://www.youtube.com/watch?v=wrIqUEhoE2Y" target="_blank">Start It Underground(中正勁舞)</a></li>
-                                <li><a href="https://www.youtube.com/watch?v=9pdM0NNMypE" target="_blank">Start It Underground(Woden Lockers)</a></li>
-                                <li><a href="https://www.youtube.com/watch?v=nfl6LTNkPvI" target="_blank">舞點．開始 Vol.12</a></li>
-                                <li><a href="https://www.youtube.com/watch?v=Bk6X1qq0Uk0" target="_blank">Dance Revolution Vol.7</a></li>
+                        </div>
+                        <div class="box2 borderrtset">
+                            <h4>培訓經歷</h4>
+                            <ul>
+                                <li>2020臺灣資訊奧林匹亞競賽推薦學生選拔及培訓</li>
+                                <li>勞動力發展署青年職訓-產業新尖兵試辦計畫- <br>
+                                    NFT加密藝術科技暨創意互動網站開發實務人才培訓班第一梯</li>
                             </ul>
-                        </li>
-                    </ol>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box1 borderlfset borderbtset lightbg" id="spboxlf" >
+                            <h4>特殊活動參與及獎狀授予</h4>
+                            <ul>
+                                <li>一百年學年度陳郁昕獎學金獲頒人</li>
+                                <li>瑞光國小校內楷模</li>
+                                <li>屏東縣市長獎畢業生</li>
+                                <li>第29屆飢餓三十人道救援行動</li>
+                                <li>寫信馬拉松</li>
+                                <li>2022臺灣燈會志工服務</li>
+                            </ul>
+                        </div>
+                        <div class="box2 borderrtset borderbtset lightbg" id="spboxrt" >
+                            <h4>相關連結</h4>
+                            <ol>
+                                <li>舞展影片(高一)
+                                    <ul class="touch">
+                                        <li><a href="https://www.youtube.com/watch?v=eeox8DB4xoA&t=92s" target="_blank">Soul out Vol.12</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=MKOeRrOiYJ8" target="_blank">Memoria·憶 Vol.1</a></li>
+                                    </ul>
+                                </li>
+                                <li>舞展影片(高二)
+                                    <ul class="touch">
+                                        <li><a href="https://www.youtube.com/watch?v=0_pn-fZkCpE" target="_blank">Summer Beat Vol.19</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=0PMDcrUgqqk" target="_blank">Rhythm of Soul Vol.7</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=lxYzKW-yRNk&t=9s" target="_blank">Rock Senior Vol.11</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=tfR1XQYuiWw" target="_blank">Soul Out Vol.13</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=wrIqUEhoE2Y" target="_blank">Start It Underground(中正勁舞)</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=9pdM0NNMypE" target="_blank">Start It Underground(Woden Lockers)</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=nfl6LTNkPvI" target="_blank">舞點．開始 Vol.12</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=Bk6X1qq0Uk0" target="_blank">Dance Revolution Vol.7</a></li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="btnbox">
-            <div class="box-1" id="spbtnst-1"><a href="index.html"><button class="buttonset" style="width: 50%;">Home</button></a></div>
-            <div class="box-2" id="spbtnst-2"><a href="provement.html"><button class="buttonset"  style="width: 50%;">Provement</button></a></div>
-            <div class="box-3"><a href="javascript:history.back()"><button class="buttonset"  style="width: 50%;">Go Back</button></a></div>
+            <div id="btnbox">
+                <div class="box-1" id="spbtnst-1"><a href="index.html"><button class="buttonset" style="width: 50%;">Home</button></a></div>
+                <div class="box-2" id="spbtnst-2"><a href="provement.html"><button class="buttonset"  style="width: 50%;">Provement</button></a></div>
+                <div class="box-3"><a href="javascript:history.back()"><button class="buttonset"  style="width: 50%;">Go Back</button></a></div>
+            </div>
         </div>
     </section>
     <div class="main">
@@ -201,8 +220,8 @@
         <div id="footerleft">
             <ul>
                 <li><a href="https://www.facebook.com/sean.liu.7545/" target="_blank">Facebook</a></li>
-                <li><a href="https://github.com/ShawnLiu0725" target="_blank">Github</a></li>
                 <li><a href="https://www.instagram.com/_shawn__liu/" target="_blank">Instagram</a></li>
+                <li><a href="https://github.com/ShawnLiu0725" target="_blank">Github</a></li>
             </ul>
         </div>
         <div id="footerright">
@@ -211,11 +230,18 @@
         </div>
     </footer>
 </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+    <!-- Gsap first, then Font Awesome, then AOS, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://kit.fontawesome.com/568a5edde4.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

@@ -5,39 +5,41 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    @@include('include/head.html')
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    @@include('include/first.html')
     @@include('include/nav.html')
     <div>
         <section class="hung" id="ftbg">
             <div class="main">
-                <div class="spbox">
-                    <div class="spbox1">
-                        @@include('include/carousel.html')
-                        <div class="hung-dog">
-                            <img src="img/dog.png" id="cutedog" alt="">
+                <div class="col text-light text-center mt-1"  data-aos="fade-up"
+                data-aos-duration="3000" style="margin: 0;padding: 0;">
+                    <div class="spbox">
+                        <div class="spbox1">
+                            @@include('include/carousel.html')
+                            <div class="hung-dog">
+                                <img src="img/dog.png" id="cutedog" alt="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="spbox2">
-                        <div class="list" id="listbox1">
-                            <span>目錄</span>
-                        </div>
-                        <div class="list" id="listbox2">
-                            <a href="myself.html"><button class="buttonset">自傳</button></a>
-                        </div>
-                        <div class="list" id="listbox3">
-                            <a href="provement.html"><button class="buttonset">經歷證明文件</button></a>
-                        </div>
-                        <div class="list" id="listbox4">
-                            <a href="streetvideos.html"><button class="buttonset">街舞課程及比賽影片</button></a>
-                        </div>
-                        <div class="list" id="listbox5" style="margin-bottom: 0;">
-                            <a href="connect.html"><button class="buttonset">舞展影片及作品連結</button></a>
+                        <div class="spbox2">
+                            <div class="list" id="listbox1">
+                                <span>目錄</span>
+                            </div>
+                            <div class="list" id="listbox2">
+                                <a href="myself.html"><button class="buttonset">自傳</button></a>
+                            </div>
+                            <div class="list" id="listbox3">
+                                <a href="provement.html"><button class="buttonset">經歷證明文件</button></a>
+                            </div>
+                            <div class="list" id="listbox4">
+                                <a href="streetvideos.html"><button class="buttonset">街舞課程及比賽影片</button></a>
+                            </div>
+                            <div class="list" id="listbox5" style="margin-bottom: 0;">
+                                <a href="connect.html"><button class="buttonset">舞展影片及作品連結</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -117,19 +119,6 @@
         </section>
         @@include('include/footer.html')
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
-    <script src="https://kit.fontawesome.com/568a5edde4.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    @@include('include/script.html')
+    </body>
 </html>

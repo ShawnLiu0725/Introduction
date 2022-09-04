@@ -89,8 +89,8 @@ html {
     left: 65px;
 }
 #spbgset{
-    height: 72.3vh;
     display: flex;
+    padding: 50px;
 }
 #centerset{
     margin:  auto ;
@@ -105,6 +105,8 @@ html {
 }
 .boxsetting{
     color: #645450;
+    margin: auto;
+    max-width: 960px;
     div{
         h3{
             text-align: center;
@@ -266,7 +268,7 @@ html {
     }
 }
 #boxset---1{
-    padding: 10px 25px 10px 25px ;
+    padding: 10px 25px 20px 25px;
 }
 .box--1{
     flex-basis: 20%;
@@ -536,7 +538,7 @@ html {
     padding-bottom: 10px;
 }
 #spbgset1{
-    height: 72.4vh;
+    padding: 50px;
 }
 .logobox{
     margin: auto ;
@@ -579,6 +581,7 @@ html {
     margin-top: 20px;
     text-align: center;
     display: flex;
+    text-align: center;
 }
 #btnboxlf{
     flex-basis: 50%;
@@ -646,6 +649,15 @@ html {
     margin-right: 50px;
     margin-left: 35px;
 }
+.wordmain{
+    max-width: 960px;
+    margin: auto;
+}
+#thebox{
+    max-width: 960px;
+    margin: auto;
+    padding-top: 20px;
+}
 @media (max-width: 960px) { 
     #nav_logo{
         width: 75px;
@@ -661,6 +673,7 @@ html {
     }
     #spbgset{
         height: 100%;
+        padding: 20px;
     }
     .spbg2{
         width: 100%;
@@ -779,6 +792,7 @@ html {
     }
     #spbgset1{
         height: 100%;
+        padding: 20px;
     }
     .logobox{
         flex-direction: column;
