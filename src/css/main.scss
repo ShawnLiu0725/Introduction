@@ -1,4 +1,10 @@
 @import "_footer.scss";
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Noto+Sans+TC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Noto+Sans+TC:wght@100;300;400;500&display=swap');
+body{
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+}
 html {
     box-sizing: border-box;
 }
