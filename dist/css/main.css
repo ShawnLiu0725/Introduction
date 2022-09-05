@@ -245,8 +245,8 @@ html {
   border: 5px solid #79b1d6;
   border-radius: 30px;
   background-color: #fff9e9;
-  margin: 0 200px 0 200px;
-  padding: 10px 0 10px 125px; }
+  margin: auto;
+  padding: 25px; }
 
 .menu_btn {
   max-width: 35px;
