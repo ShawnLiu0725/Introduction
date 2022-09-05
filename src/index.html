@@ -6,7 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    @@include('include/head.html')
+    @@include('include/head.html',{
+        "css": "main.css"
+    })
 
   </head>
   <body>
@@ -118,7 +120,7 @@
             </div>
         </section>
         @@include('include/footer.html')
+        @@include('include/script.html')
     </div>
-    @@include('include/script.html')
     </body>
 </html>
