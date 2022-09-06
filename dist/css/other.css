@@ -694,6 +694,15 @@ html {
   display: flex;
   flex-direction: column; }
 
+.catalog {
+  padding: 10px; }
+
+#catalognav {
+  background-color: #645450;
+  box-shadow: 5px 5px 10px rgba(23, 23, 54, 0.6); }
+  #catalognav a {
+    color: #b2aaa8; }
+
 @media (max-width: 960px) {
   #nav_logo {
     width: 75px;
