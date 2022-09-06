@@ -164,8 +164,9 @@ html {
   .setting2 div div {
     text-align: center; }
     .setting2 div div div img {
-      max-height: 820px;
-      max-width: 579.6px; }
+      max-height: 800px;
+      max-width: 400px;
+      height: 100%; }
   .setting2 div h4 {
     padding-top: 10px;
     margin-bottom: 10px; }
