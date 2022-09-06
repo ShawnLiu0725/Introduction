@@ -1,4 +1,4 @@
-@import "_footer.scss";
+@import "partials/_footer";
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Noto+Sans+TC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Noto+Sans+TC:wght@100;300;400;500&display=swap');
 body{
@@ -664,6 +664,84 @@ html {
     margin: auto;
     padding-top: 20px;
 }
+#learnset{
+    background-color: #f2ede7;
+    display: flex;
+    padding: 25px 150px;
+    p{
+        font-size: 18px;
+        color: #413f44;;
+    }
+    h3{
+        color: #413f44;
+    }
+}
+#learnbox{
+    flex-direction: column;
+    max-width: 960px;
+    margin: auto;
+}
+.learnboxon{
+    h3{
+        text-align: center;
+        font-size: 28px;
+    }
+    p{
+        text-align: left;
+    }
+}
+.learnboxbt{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+#learnbtbox1{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+}
+#learnbtbox2{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+}
+#learnbtbox-1{
+    flex-basis: 50%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+}
+#learnbtbox-2{
+    flex-basis: 50%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+#learnbtbox-3{
+    flex-basis: 50%;
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+}
+#learnbtbox-4{
+    flex-basis: 50%;
+}
+.allset{
+    background-color: rgba(255,255,255,.4);
+    padding: 25px;
+    h3{
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    p{
+        text-align: left;
+    }
+}
+.myset{
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #413f44;
+    color: rgba(255,255,255,.4);
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+}
 @media (max-width: 960px) { 
     #nav_logo{
         width: 75px;
@@ -873,5 +951,24 @@ html {
    #wordset1{
     top: 150px;
     left: 110px;
+   }
+   #learnbtbox1{
+    flex-direction: column;
+   }
+   #learnbtbox2{
+    flex-direction: column;
+   }
+   #learnset{
+    padding: 25px;
+   }
+   #learnbtbox-1{
+    border-right: none;
+   }
+   #learnbtbox-2{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+   }
+   #learnbtbox-3{
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
    }
 }
