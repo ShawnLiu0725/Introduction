@@ -1,7 +1,14 @@
+.footerbox{
+    margin: 0;
+    padding: 0;
+    background-color: #a8a07a;
+}
 footer{
     background-color: #a8a07a;
     padding:25px 200px;
     color: 	#5B4B00;
+    max-width: 1980px;
+    margin: 0 auto;
 }
 #footerall{
     display: flex;
@@ -27,4 +34,27 @@ footer{
     flex-basis: 40%;
     text-align: right;
     padding-right: 200px;
+}
+@media(max-width: 960px){
+    footer{
+        width: 100%;
+        padding: 25px 50px;
+    }
+    #footerall{
+        flex-direction: column;
+        text-align: center;
+        ul{
+            padding: 0;
+            margin: 0;
+            li{
+                margin: 0;
+                padding-right: 0;
+                padding-left: 10px;
+            }
+        }
+    }
+    #footerright{
+        padding: 0;
+        text-align: center;
+    }
 }

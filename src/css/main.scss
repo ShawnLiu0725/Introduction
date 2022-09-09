@@ -1,4 +1,5 @@
 @import "partials/_footer";
+@import "partials/_nav";
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Noto+Sans+TC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=Noto+Sans+TC:wght@100;300;400;500&display=swap');
 body{
@@ -11,6 +12,7 @@ html {
 .main{
     width: 100%;
     max-width: 1980px;
+    margin: 0 auto;
 }
 #ftbg{
     padding: 120px 50px 120px 50px;
@@ -238,63 +240,6 @@ html {
     margin: auto;
     padding: 25px;
 }
-.menu_btn{
-    max-width: 35px;
-    min-width: 35px;
-    min-height: 35px;
-    max-height: 35px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    transition: all .5s ease-in-out;
-    border: 3px solid rgba(255, 255, 255, 0.1);
-    padding: 0;
-}
-.menu_btn_burger{
-    width: 14px;
-    height: 3px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(255,101,47,.2);
-    transition: all .5s ease-in-out;
-}
-.menu_btn_burger::before,
-.menu_btn_burger::after{
-    content: '';
-    position: absolute;
-    width: 14px;
-    height: 3px;
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 2px 5px rgba(255,101,47,.2);
-    transition: all .5s ease-in-out;
-}
-.menu_btn_burger::before{
-    transform: translateY(-6px);
-}
-.menu_btn_burger::after{
-    transform: translateY(6px);
-}
-.menu_btn.open .menu_btn_burger{
-    transform: translateX(-50px);
-    background: transparent;
-    box-shadow: none;
-}
-.menu_btn.open .menu_btn_burger::before{
-    transform: rotate(45deg) translate(35px, -35px);
-}
-.menu_btn.open .menu_btn_burger::after{
-    transform: rotate(-45deg) translate(35px, 35px);
-}
-#nav_logo{
-    width: 150px;
-    height: 100px;
-    margin-right: 50px;
-    margin-left: 35px;
-}
 .lastph{
     width: 400px;
 }
@@ -304,22 +249,7 @@ html {
 #carcontrol{
     margin-bottom: 8px;
 }
-.catalog{
-    padding: 10px;
-}
-#catalognav{
-    background-color: #645450;
-    box-shadow: 5px 5px 10px hsla(240, 40%, 15%, .6);
-    a{
-        color: #b2aaa8;
-    }
-}
-@media (max-width: 1048px){
-    #nav_logo{
-        width: 75px;
-        height: 50px;
-        margin: 0;
-    }
+@media (max-width: 960px){
     #ftbg{
         padding:80px 0 25px 0 ;
         height: 100%;
@@ -358,27 +288,6 @@ html {
     }
     #carcontrol{
         margin-bottom: 35px;
-    }
-    footer{
-        width: 100%;
-        padding: 25px 50px;
-    }
-    #footerall{
-        flex-direction: column;
-        text-align: center;
-        ul{
-            padding: 0;
-            margin: 0;
-            li{
-                margin: 0;
-                padding-right: 0;
-                padding-left: 10px;
-            }
-        }
-    }
-    #footerright{
-        padding: 0;
-        text-align: center;
     }
     #ftbg-1{
         padding: 20px;
