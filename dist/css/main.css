@@ -132,6 +132,8 @@ footer {
 body {
   font-family: 'Antonio', sans-serif;
   font-family: 'Noto Sans TC', sans-serif; }
+  body button:focus {
+    outline: none; }
 
 html {
   box-sizing: border-box; }
