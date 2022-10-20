@@ -83,3 +83,8 @@
         box-shadow: none;
     }
 }
+.dropdown-toggle{
+    &:focus{
+        outline: none;
+    }
+}
