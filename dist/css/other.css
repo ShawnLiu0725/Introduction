@@ -130,7 +130,8 @@ footer {
     box-shadow: none; } }
 
 .dropdown-toggle:focus {
-  outline: none; }
+  outline: none;
+  border: none; }
 
 body {
   font-family: 'Antonio', sans-serif;
