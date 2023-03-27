@@ -134,6 +134,7 @@ footer {
   border: none; }
 
 body {
+  background-color: #645450;
   font-family: 'Antonio', sans-serif;
   font-family: 'Noto Sans TC', sans-serif; }
   body button:focus {
